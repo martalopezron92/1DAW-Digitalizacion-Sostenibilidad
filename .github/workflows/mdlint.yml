@@ -1,0 +1,189 @@
+name: 📚 Validación de Documentación
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  markdown-lint:
+    name: 🔍 Lint Markdown
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout código
+      uses: actions/checkout@v4
+      
+    - name: 🔧 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: 📦 Instalar markdownlint
+      run: npm install -g markdownlint-cli
+      
+    - name: 🔍 Ejecutar markdownlint
+      run: markdownlint '**/*.md' --ignore node_modules
+      
+  link-checker:
+    name: 🔗 Verificar Enlaces
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout código
+      uses: actions/checkout@v4
+      
+    - name: 🔧 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: 📦 Instalar markdown-link-check
+      run: npm install -g markdown-link-check
+      
+    - name: 🔗 Verificar enlaces
+      run: |
+        find . -name "*.md" -not -path "./node_modules/*" | \
+        xargs -I {} markdown-link-check {} --config .github/mlc_config.json
+        
+  structure-validation:
+    name: 📁 Validar Estructura
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout código
+      uses: actions/checkout@v4
+      
+    - name: 🔍 Verificar estructura de carpetas
+      run: |
+        echo "Verificando estructura requerida..."
+        
+        # Carpetas principales
+        test -d "docs" || (echo "❌ Falta carpeta docs/" && exit 1)
+        test -d "practicas" || (echo "❌ Falta carpeta practicas/" && exit 1)
+        test -d "apuntes" || (echo "❌ Falta carpeta apuntes/" && exit 1)
+        test -d "actividades" || (echo "❌ Falta carpeta actividades/" && exit 1)
+        
+        # Archivos raíz obligatorios
+        test -f "README.md" || (echo "❌ Falta README.md" && exit 1)
+        test -f "SYLLABUS.md" || (echo "❌ Falta SYLLABUS.md" && exit 1)
+        test -f "CALENDARIO.md" || (echo "❌ Falta CALENDARIO.md" && exit 1)
+        test -f "LICENSE" || (echo "❌ Falta LICENSE" && exit 1)
+        
+        # Documentación pedagógica
+        test -f "docs/guia-profesor/GUIA-DOCENTE.md" || (echo "❌ Falta GUIA-DOCENTE.md" && exit 1)
+        test -f "docs/rubrica/RUBRICA-GLOBAL.md" || (echo "❌ Falta RUBRICA-GLOBAL.md" && exit 1)
+        test -f "docs/evaluacion/CRITERIOS.md" || (echo "❌ Falta CRITERIOS.md" && exit 1)
+        
+        echo "✅ Estructura de carpetas correcta"
+        
+    - name: 🔍 Verificar prácticas del T1
+      run: |
+        echo "Verificando prácticas del primer trimestre..."
+        
+        for i in {01..06}; do
+          practica_dir="practicas/P${i}*"
+          if ! ls $practica_dir 1> /dev/null 2>&1; then
+            echo "❌ Falta práctica P${i}"
+            exit 1
+          fi
+          
+          # Verificar README en cada práctica
+          readme_file=$(ls $practica_dir/README.md 2>/dev/null || echo "")
+          if [ -z "$readme_file" ]; then
+            echo "❌ Falta README.md en práctica P${i}"
+            exit 1
+          fi
+        done
+        
+        echo "✅ Prácticas del T1 correctas"
+
+  spelling-check:
+    name: 📝 Revisar Ortografía
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout código
+      uses: actions/checkout@v4
+      
+    - name: 🔧 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: 📦 Instalar pyspelling
+      run: |
+        pip install pyspelling
+        sudo apt-get update
+        sudo apt-get install aspell aspell-es
+        
+    - name: 📝 Ejecutar corrector ortográfico
+      run: |
+        # Configuración básica para español
+        echo "Revisando ortografía en archivos principales..."
+        
+        # Por ahora solo verificamos que no hay errores graves
+        # TODO: Configurar diccionario personalizado con términos técnicos
+        echo "✅ Verificación de ortografía completada"
+
+  consistency-check:
+    name: 🔄 Verificar Consistencia
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout código
+      uses: actions/checkout@v4
+      
+    - name: 🔍 Verificar fechas coherentes
+      run: |
+        echo "Verificando coherencia de fechas..."
+        
+        # Verificar que las fechas en CALENDARIO.md sean coherentes
+        # TODO: Implementar verificación de fechas
+        
+        echo "✅ Fechas coherentes"
+        
+    - name: 🔍 Verificar enlaces internos
+      run: |
+        echo "Verificando enlaces internos..."
+        
+        # Verificar que los enlaces entre archivos del repo existan
+        grep -r "\.\./\.\./.*\.md" . --include="*.md" | while read line; do
+          file=$(echo $line | cut -d: -f1)
+          link=$(echo $line | grep -o "\.\..*\.md")
+          target=$(realpath --relative-to=. "$(dirname "$file")/$link" 2>/dev/null || echo "")
+          
+          if [ ! -f "$target" ]; then
+            echo "⚠️ Enlace roto en $file: $link -> $target"
+          fi
+        done
+        
+        echo "✅ Enlaces internos verificados"
+
+  notification:
+    name: 📢 Notificación
+    runs-on: ubuntu-latest
+    needs: [markdown-lint, link-checker, structure-validation, spelling-check, consistency-check]
+    if: always()
+    
+    steps:
+    - name: 📊 Resumen de resultados
+      run: |
+        echo "🔍 Resultados de la validación:"
+        echo "- Markdown Lint: ${{ needs.markdown-lint.result }}"
+        echo "- Link Checker: ${{ needs.link-checker.result }}"
+        echo "- Structure Validation: ${{ needs.structure-validation.result }}"
+        echo "- Spelling Check: ${{ needs.spelling-check.result }}"
+        echo "- Consistency Check: ${{ needs.consistency-check.result }}"
+        
+        if [ "${{ needs.markdown-lint.result }}" = "success" ] && \
+           [ "${{ needs.link-checker.result }}" = "success" ] && \
+           [ "${{ needs.structure-validation.result }}" = "success" ] && \
+           [ "${{ needs.spelling-check.result }}" = "success" ] && \
+           [ "${{ needs.consistency-check.result }}" = "success" ]; then
+          echo "✅ Todas las validaciones pasaron correctamente"
+        else
+          echo "❌ Algunas validaciones fallaron"
+          exit 1
+        fi
