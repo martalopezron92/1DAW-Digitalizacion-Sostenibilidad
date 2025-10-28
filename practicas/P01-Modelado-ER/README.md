@@ -6,10 +6,10 @@
 - **Código**: P01-Modelado-ER
 - **Nombre**: Diseño del Modelo de Datos del Proyecto
 - **Trimestre**: 1º
-- **Semana de entrega**: 8 (15 de octubre)
+<!-- - **Semana de entrega**: 8 (15 de octubre)
 - **Duración estimada**: 8 horas (4h clase + 4h autónoma)
 - **Modalidad**: Trabajo en equipo (3-4 personas)
-- **Peso en la evaluación**: 15% del primer trimestre
+- **Peso en la evaluación**: 15% del primer trimestre -->
 
 ---
 
