@@ -191,7 +191,6 @@ reports/
 *.pdf
 
 # Archivos de actividades (excepto sesión 1)
-actividades/Sesion2_Actividad_Fuentes_de_datos.md
 actividades/Sesion3_Actividad_Recogida_de_datos_locales.md
 actividades/Sesion4_Actividad_Modelado.md
 actividades/Sesion5_Actividad_postgresql.md
@@ -200,7 +199,6 @@ actividades/Sesion7_Actividad_Consultas_y_verificacion.md
 actividades/Sesion8_Actividad_Producto_parcial.md
 
 # Archivos de apuntes (excepto sesión 1)
-apuntes/Sesion2_Fuentes_de_datos_y_sistemas_de_informacion.md
 apuntes/Sesion3_Recogida_de_datos_locales.md
 apuntes/Sesion4_Modelado_de_datos.md
 apuntes/Sesion5_creacion_bd.md
