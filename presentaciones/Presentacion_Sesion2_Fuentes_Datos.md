@@ -7,9 +7,10 @@
 
 1. [🎯 Objetivos](#-objetivos)
 2. [🧠 ¿Por qué son importantes los datos?](#-por-qué-son-importantes-los-datos)
-3. [🔍 Tipos de fuentes de datos](#-tipos-de-fuentes-de-datos)
-4. [⚙️ Sistemas IT vs OT](#️-sistemas-it-vs-ot)
-5. [🔄 Flujo de información digital](#-flujo-de-información-digital)
+3. [🔍 ¿De dónde vienen los datos?](#-de-dónde-vienen-los-datos)
+4. [¿Cómo se organizan los datos?](#-cómo-se-organizan-los-datos)
+4. [⚙️ ¿Qué sistemas gestionan los datos?](#️-qué-sistemas-gestionan-los-datos)
+5. [🔄 ¿Cómo se recogen y procesan?](#-cómo-se-recogen-y-procesan)
 6. [🌐 Portales de datos abiertos](#-portales-de-datos-abiertos)
 7. [✅ Criterios de calidad](#-criterios-de-calidad)
 8. [🎯 Ejemplo práctico](#-ejemplo-práctico)
@@ -26,12 +27,10 @@
 ✅ **Evaluar** la calidad de las fuentes de datos  
 ✅ **Localizar** portales de datos abiertos útiles
 
-### 💭 **Pregunta inicial:**
-> *"¿Qué datos genera tu móvil cada día sin que te des cuenta?"*
-
 ---
 
 ## 🧠 **¿Por qué son importantes los datos?**
+### *El valor de la información*
 
 ### 🌟 **Los datos son el nuevo petróleo**
 
@@ -53,14 +52,12 @@ DATOS → INFORMACIÓN → CONOCIMIENTO → DECISIONES
 - **Conocimiento:** "Cuando sube la temperatura, baja la concentración"
 - **Decisión:** "Activar ventilación a partir de 24°C"
 
-### 🤔 **Pregunta reflexiva:**
-> *"¿Crees que recopilamos demasiados datos o aún necesitamos más para tomar buenas decisiones?"*
-
 ---
 
-## 🔍 **Tipos de fuentes de datos**
+## 🔍 **¿De dónde vienen los datos?**
+### *Tipos de fuentes de datos*
 
-### 🏠 **1. Fuentes INTERNAS**
+#### 🏠 **1.Fuentes INTERNAS**
 *Datos que genera nuestra propia organización*
 
 | 🔧 **Tipo** | 📊 **Ejemplo** | 💻 **Tecnología** |
@@ -70,17 +67,18 @@ DATOS → INFORMACIÓN → CONOCIMIENTO → DECISIONES
 | **Administrativos** | Facturas de suministros | Sistema contable |
 | **Tecnológicos** | Temperatura de aulas | Sensores IoT |
 
-### 🌍 **2. Fuentes EXTERNAS**
+#### 🌍 **2.Fuentes EXTERNAS**
 *Datos públicos o de terceros*
 
-| 🔧 **Tipo** | 📊 **Ejemplo** | 🌐 **Fuente** |
-|:------------|:---------------|:--------------|
-| **Datos abiertos** | Emisiones de CO₂ nacional | datos.gob.es |
-| **APIs públicas** | Datos meteorológicos | AEMET |
-| **Datasets** | Energías renovables | Kaggle |
-| **Institucionales** | Estadísticas demográficas | INE |
+| Concepto | Qué es | Ejemplo |
+|:---------|:-------|:--------|
+| **Datos Abiertos** | 📜 **Licencia** - Datos de libre uso y redistribución | Datos del INE, datos.gob.es |
+| **APIs Públicas** | 🔌 **Método de acceso** - Interfaz para obtener datos en tiempo real | API de AEMET, Google Maps API |
+| **Datasets públicos** | 📦 **Formato de entrega** - Archivo descargable estático | CSV de Kaggle, archivo Excel |
 
-### 📁 **3. Según su ESTRUCTURA**
+
+## 🔍 **¿Cómo se organizan los datos?**
+### *Tipos de datos segun su estructura*
 
 #### 📊 **Estructurados**
 - **Qué son:** Datos organizados en tablas
@@ -96,13 +94,10 @@ DATOS → INFORMACIÓN → CONOCIMIENTO → DECISIONES
 - **Qué son:** Datos sin formato fijo
 - **Ejemplo:** Texto libre, imágenes, videos
 - **Desafío:** Requiere IA para procesar
-
-### 💡 **Actividad práctica:**
-*Identifica qué tipo de datos generarías para medir la sostenibilidad de tu clase*
-
 ---
 
-## ⚙️ **Sistemas IT vs OT**
+## ⚙️ **¿Qué sistemas gestionan los datos?**
+### *IT vs OT: Mundo digital y mundo físico*
 
 ### 💻 **IT (Information Technology)**
 *El mundo digital*
@@ -139,14 +134,15 @@ Un sensor que mide automáticamente la temperatura del aula cada 5 minutos
 
 ---
 
-## 🔄 **Flujo de información digital**
+## 🔄 **¿Cómo se recogen y procesan los datos?**
+### *El flujo de información digital completo*
 
 ### 📈 **Las 5 fases del dato**
 
-#### 1️⃣ **CAPTURA**
+#### 1️⃣ **CAPTURA** (¿Cómo se recogen?)
 - **Qué:** Recoger datos del entorno
 - **Ejemplo:** Sensor mide consumo eléctrico
-- **Herramientas:** Sensores, encuestas, APIs
+- **Métodos:** Sensores IoT, formularios web, APIs, importación de archivos, scraping web
 
 #### 2️⃣ **TRANSMISIÓN**
 - **Qué:** Enviar datos al servidor
@@ -209,9 +205,6 @@ Sensor IoT → WiFi → Raspberry Pi → MySQL → Power BI → Usuario
 - **Contiene:** Temperatura, precipitaciones, radiación solar
 - **Uso:** Correlacionar clima con consumo energético
 
-### 💡 **Actividad:**
-*Busca en datos.gob.es un dataset relacionado con sostenibilidad de tu ciudad*
-
 ---
 
 ## ✅ **Criterios de calidad**
@@ -233,47 +226,6 @@ Sensor IoT → WiFi → Raspberry Pi → MySQL → Power BI → Usuario
 ❌ **Fuente desconocida o no oficial**  
 ❌ **Muchos valores vacíos o inconsistentes**  
 ❌ **Difícil de descargar o procesar**
-
-### 🤔 **Pregunta crítica:**
-> *"¿Prefieres muchos datos de calidad media o pocos datos de alta calidad?"*
-
----
-
-## 🎯 **Ejemplo práctico**
-
-### 🏫 **Caso: Análisis energético del instituto**
-
-#### 🎯 **Objetivo**
-Reducir el consumo eléctrico del centro identificando patrones
-
-#### 📊 **Fuentes de datos**
-
-**🏠 Internas:**
-- Facturas eléctricas mensuales (kWh)
-- Horarios de ocupación de aulas
-- Inventario de equipos (ordenadores, proyectores)
-
-**🌍 Externas:**
-- Temperatura exterior (API AEMET)
-- Datos de otros centros educativos (datos.gob.es)
-- Precios de la electricidad (REE)
-
-#### 🔄 **Flujo del proyecto**
-
-1. **Captura:** Recopilar facturas + API meteorológica
-2. **Transmisión:** CSV + peticiones HTTP
-3. **Almacenamiento:** Base de datos MySQL
-4. **Procesamiento:** Script Python para análisis
-5. **Visualización:** Dashboard con gráficos de tendencias
-
-#### 📈 **Resultados esperados**
-- Identificar horarios de mayor consumo
-- Correlacionar temperatura con gasto energético
-- Proponer medidas de ahorro específicas
-
-#### 💡 **Aplicación práctica**
-*"Si la temperatura sube 1°C, el consumo aumenta un 15%"*  
-→ **Acción:** Mejorar aislamiento térmico
 
 ---
 
@@ -298,50 +250,7 @@ Reducir el consumo eléctrico del centro identificando patrones
 - **Pensamiento analítico:** Ver patrones en los datos
 - **Curiosidad técnica:** Entender cómo funcionan las APIs
 - **Ética digital:** Usar datos de forma responsable
-- **Comunicación:** Explicar insights de forma clara
-
-### 🌍 **Preguntas para reflexionar:**
-
-1. **Técnica:** 
-   > *"¿Qué datos de tu vida diaria te gustaría analizar para ser más sostenible?"*
-
-2. **Ética:** 
-   > *"¿Dónde está el límite entre datos útiles e invasión de privacidad?"*
-
-3. **Práctica:** 
-   > *"¿Cómo convencerías a tu instituto para instalar sensores de monitorización?"*
-
----
-
-## 🎯 **Actividades de cierre**
-
-### 📝 **Autoevaluación rápida**
-
-**Evalúa tu comprensión (1-5):**
-
-- [ ] Distingo entre fuentes internas y externas: ⭐⭐⭐⭐⭐
-- [ ] Entiendo la diferencia entre IT y OT: ⭐⭐⭐⭐⭐  
-- [ ] Conozco el flujo de información digital: ⭐⭐⭐⭐⭐
-- [ ] Puedo evaluar calidad de datos: ⭐⭐⭐⭐⭐
-
-### 🔍 **Mini-investigación**
-
-**Elige una opción:**
-
-**A) Portal explorer:** Encuentra 3 datasets en datos.gob.es relacionados con tu ciudad  
-**B) API tester:** Prueba a acceder a la API de AEMET para obtener datos de tu provincia  
-**C) Quality checker:** Evalúa un dataset de Kaggle usando los criterios de calidad
-
-### 📊 **Para la próxima sesión**
-
-#### 🎯 **Misión**
-Identifica una fuente de datos (interna o externa) que podrías usar para medir algún aspecto de sostenibilidad en tu entorno (casa, instituto, barrio)
-
-#### ✍️ **Entrega** (150 palabras)
-- **Fuente elegida:** ¿Cuál y por qué?
-- **Tipo de datos:** ¿Estructurados, semi o no estructurados?
-- **Calidad:** Evalúa según los 6 criterios
-- **Aplicación:** ¿Qué podrías descubrir?
+- **Comunicación:** Explicar insights de forma clar
 
 ---
 
@@ -357,11 +266,6 @@ Identifica una fuente de datos (interna o externa) que podrías usar para medir 
 - "Data Science for Business" - Foster Provost
 - "The Data Revolution" - Rob Kitchin
 - "Big Data: A Revolution" - Viktor Mayer-Schönberger
-
-### 🎥 **Videos complementarios**
-- "What is Big Data?" (IBM)
-- "IoT Explained" (Cisco)
-- "Open Data Movement" (TED Talk)
 
 ---
 

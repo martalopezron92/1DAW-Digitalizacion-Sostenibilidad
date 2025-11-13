@@ -77,7 +77,6 @@ Cada grupo deberá localizar y analizar **fuentes de datos internas** (del centr
 3. Si alguna fuente se obtiene mediante API, añadid:
    - URL del endpoint.  
    - Ejemplo de respuesta JSON o CSV.  
-   - Breve descripción de cómo se podrían importar los datos a una base de datos (ej. con `pandas`, `requests`, `LOAD DATA` en SQL…).
 
 ---
 
