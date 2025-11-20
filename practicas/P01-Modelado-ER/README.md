@@ -153,13 +153,6 @@ Esta práctica trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 | **d)** Características que definen Big Data | Diseña para escalabilidad, contemplando volumen, variedad y velocidad |
 | **e)** Etapas de ciencia de datos y su relación | Estructura los datos de forma que faciliten su posterior análisis |
 
-**RA6**: Desarrolla un proyecto de transformación digital.
-
-| Criterio | Indicador de logro |
-|:---------|:-------------------|
-| **a)** Identificación de objetivos estratégicos | El modelo se alinea con los objetivos del proyecto de sostenibilidad |
-| **c)** Identificación de áreas susceptibles de digitalización | Modela correctamente los ámbitos elegidos (energía, residuos, etc.) |
-| **h)** Definición del tratamiento de datos y análisis | Estructura permite agregaciones, consultas y análisis posteriores |
 
 ### 🌱 **Sostenibilidad aplicada al sistema productivo**
 
@@ -169,12 +162,6 @@ Esta práctica trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 |:---------|:-------------------|
 | **d)** Identificación de aspectos ASG relevantes | El modelo incluye entidades y atributos para medir indicadores ASG seleccionados |
 | **e)** Métricas para evaluación del desempeño | Diseña estructuras que permitan calcular métricas de sostenibilidad |
-
-**RA6**: Analiza un plan de sostenibilidad identificando aspectos ASG materiales.
-
-| Criterio | Indicador de logro |
-|:---------|:-------------------|
-| **d)** Determinación de métricas de evaluación del desempeño | El modelo permite almacenar y calcular indicadores según estándares de sostenibilidad |
 
 ---
 

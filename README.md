@@ -77,8 +77,8 @@ Cada grupo presentará un **proyecto completo**, formado por:
 
 🧩 **Producto parcial:** esquema de base de datos + primera carga de datos.  
 📊 **RA implicados:**  
-- **Digitalización:** RA1 (IT/OT), RA2 (THD), RA3 (Cloud)  
-- **Sostenibilidad:** RA1 (ASG y ODS), RA2 (Retos ambientales/sociales)
+- **Digitalización:** RA1 (IT/OT), RA2 (THD), RA5 (Datos y protección) 
+- **Sostenibilidad:** RA1 (ASG y ODS), RA2 (Retos ambientales/sociales), RA3 (Criterios sostenibles)
 
 ---
 
@@ -92,8 +92,9 @@ Cada grupo presentará un **proyecto completo**, formado por:
 
 📊 **Producto parcial:** dashboard funcional con indicadores y comparativas.  
 🧩 **RA implicados:**  
-- **Digitalización:** RA3 (Cloud/análisis), RA4 (IA), RA5 (Protección de datos)  
-- **Sostenibilidad:** RA2 (Retos y acciones), RA3 (Criterios sostenibles), RA4 (Economía circular)
+- **Digitalización:** RA3 (Cloud/almacenamiento (dual)), RA4 (IA/análisis), RA5 (Protección de datos/continuación)  
+- **Sostenibilidad:** RA4 (Economía circular(dual)), RA5 (Actividades sostenibles)
+
 
 ---
 
@@ -106,10 +107,10 @@ Cada grupo presentará un **proyecto completo**, formado por:
 
 📊 **Producto final:** informe + dashboard + plan de sostenibilidad.  
 🧩 **RA implicados:**  
-- **Digitalización:** RA4 (IA/optimización), RA5 (Seguridad), RA6 (Proyecto transformación digital completo)  
-- **Sostenibilidad:** RA5 (Actividades sostenibles), RA6 (Plan de sostenibilidad con grupos de interés)
+- **Digitalización:** RA4 (IA/optimización), RA6 (Proyecto transformación digital completo/continuación)  
+- **Sostenibilidad:** RA5 (Actividades sostenibles/continuación), RA6 (Plan de sostenibilidad completo)
 
----
+<!-- --- -->
 
 <!-- ## 🧩 Evaluación y Criterios
 

@@ -95,13 +95,116 @@ Cada grupo entregará:
 
 ---
 
-## 🧩 Evaluación
+## 🧾 **Criterios de evaluación**
 
-| Criterio | Indicador observable | Instrumento |
-|-----------|----------------------|--------------|
-| **DIG-RA1 / RA2** | Usa herramientas digitales adecuadas para la captura de datos. | Rúbrica de diseño de encuesta o sensor |
-| **DIG-RA5** | Aplica buenas prácticas de seguridad y privacidad de datos. | Checklist de cumplimiento RGPD |
-| **SOST-RA1** | Selecciona indicadores sostenibles pertinentes y medibles. | Análisis del documento entregado |
+Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de Evaluación:
+
+### 📱 **Digitalización aplicada al sistema productivo**
+
+**RA1**: Analiza el concepto de digitalización y su repercusión identificando entornos IT y OT.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **b)** Se ha relacionado la implantación de tecnología digital con la organización | Diseña un proceso de recogida de datos aplicando tecnología digital al centro | Documento técnico del plan |
+| **c)** Se han establecido diferencias entre IT y OT | Identifica correctamente si usa métodos IT (formularios) u OT (sensores físicos) | Plan de recogida y diagrama |
+
+**RA2**: Caracteriza las tecnologías habilitadoras digitales necesarias para la transformación digital.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **a)** Se han identificado las principales THD | Selecciona herramientas digitales apropiadas (Forms, sensores IoT, hojas de cálculo) | Métodos elegidos y justificación |
+| **e)** Se ha analizado la implicación de THD en negocio y planta | Comprende cómo las THD permiten capturar datos tanto de gestión como operacionales | Documento técnico |
+
+**RA5**: Evalúa la importancia de los datos y su protección.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **a)** Se ha establecido la diferencia entre dato e información | Identifica qué datos brutos recoger para generar información útil | Tabla de variables |
+| **b)** Se ha descrito el ciclo de vida del dato | Diseña correctamente la fase de captura incluyendo almacenamiento inicial | Diagrama de flujo de datos |
+| **i)** Se ha valorado la importancia de la seguridad y regulación | Aplica principios de RGPD: anonimización, consentimiento, minimización de datos | Checklist RGPD completada |
+
+
+### 🌱 **Sostenibilidad aplicada al sistema productivo**
+
+**RA1**: Identifica aspectos ASG relativos a la sostenibilidad.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **d)** Se ha analizado la importancia de identificar aspectos ASG relevantes | Selecciona variables que miden indicadores ASG concretos del ámbito elegido | Tabla de variables con justificación |
+| **e)** Se han identificado métricas para evaluación del desempeño | Define variables medibles y con unidades apropiadas para indicadores de sostenibilidad | Tabla de variables completa |
+
+**RA2**: Caracteriza los retos ambientales y sociales y propone acciones.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **d)** Se han identificado medidas encaminadas a minimizar impactos | El plan de recogida permite obtener datos para identificar áreas de mejora | Justificación del plan |
+
+**RA3**: Establece criterios de sostenibilidad en el desempeño profesional.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **c)** Se han identificado acciones necesarias para atender retos desde la actividad profesional | Diseña un método de recogida que atiende el reto de sostenibilidad del ámbito | Plan técnico completo |
+
+---
+
+## 📊 **Rúbrica de Evaluación**
+
+### **Dimensión 1: Planificación y Diseño Técnico (40%)**
+
+| Criterio | Excelente (9-10) | Notable (7-8) | Bien (5-6) | Insuficiente (0-4) |
+|:---------|:-----------------|:--------------|:-----------|:-------------------|
+| **Variables definidas** | Todas las variables identificadas, con tipo, unidad y justificación clara de su relevancia ASG | Variables correctas con tipo y unidad, justificación básica | Variables identificadas pero faltan detalles (tipo o unidad) | Variables incompletas o no relacionadas con ASG |
+| **Métodos de recogida** | Usa al menos 2 métodos distintos, bien justificados y técnicamente apropiados | 2 métodos distintos, justificación correcta | Solo 1 método o justificación mejorable | Método inadecuado o no justificado |
+| **Herramientas digitales** | Selecciona y configura herramientas óptimas (Forms avanzado, sensores bien especificados) | Herramientas apropiadas y correctamente configuradas | Herramientas básicas funcionales | Herramientas inadecuadas o mal configuradas |
+| **Diseño funcional** | Formulario/sensor/sistema completamente operativo, profesional y sin errores | Funcional y correcto, pequeños aspectos mejorables | Funcional pero con errores menores o incompleto | No funcional o con errores graves |
+
+### **Dimensión 2: Calidad de Datos y RGPD (30%)**
+
+| Criterio | Excelente (9-10) | Notable (7-8) | Bien (5-6) | Insuficiente (0-4) |
+|:---------|:-----------------|:--------------|:-----------|:-------------------|
+| **Cumplimiento RGPD** | Checklist completa, anonimización perfecta, consentimiento informado claro, minimización de datos | Checklist completa, cumple RGPD correctamente | Cumple aspectos básicos, alguna carencia menor | No cumple RGPD o recoge datos identificables |
+| **Criterios de calidad** | Diseño garantiza completitud, coherencia, precisión y trazabilidad de datos | Contempla los principales criterios de calidad | Considera calidad básica | No contempla criterios de calidad |
+| **Ciclo de vida del dato** | Documenta perfectamente captura → almacenamiento → procesamiento futuro | Documenta correctamente captura y almacenamiento | Documenta captura de forma básica | No documenta el ciclo de vida |
+| **Diferenciación IT/OT** | Identifica claramente y justifica si usa sistemas IT, OT o ambos | Identifica correctamente IT u OT | Identifica pero sin claridad | No diferencia IT/OT |
+
+### **Dimensión 3: Documentación y Comunicación (20%)**
+
+| Criterio | Excelente (9-10) | Notable (7-8) | Bien (5-6) | Insuficiente (0-4) |
+|:---------|:-----------------|:--------------|:-----------|:-------------------|
+| **Documento técnico** | Muy completo, claro, profesional, todas las secciones bien desarrolladas | Completo y claro, todas las secciones presentes | Completo pero mejorable en claridad o profundidad | Incompleto o poco claro |
+| **Diagrama de flujo** | Diagrama claro, completo, muestra todo el proceso desde origen hasta almacenamiento | Diagrama correcto y comprensible | Diagrama básico funcional | Diagrama confuso o ausente |
+| **Justificaciones** | Todas las decisiones técnicas bien argumentadas con criterios de sostenibilidad y técnicos | Justificaciones correctas | Justificaciones básicas | Justificaciones débiles o ausentes |
+| **Presentación** | Formato profesional, sin errores, estructura clara, enlaces/archivos funcionan | Bien presentado, estructura correcta | Presentación aceptable | Desorganizado o con errores |
+
+### **Dimensión 4: Coherencia con el Proyecto (10%)**
+
+| Criterio | Excelente (9-10) | Notable (7-8) | Bien (5-6) | Insuficiente (0-4) |
+|:---------|:-----------------|:--------------|:-----------|:-------------------|
+| **Alineación con ODS/ASG** | Conexión clara y explícita entre datos recogidos e indicadores ASG del proyecto | Conexión correcta con indicadores ASG | Conexión básica establecida | Conexión débil o ausente |
+| **Viabilidad para BD** | Los datos diseñados encajan perfectamente en el modelo ER futuro | Los datos son compatibles con el modelo ER | Compatibilidad básica | Datos no compatibles con modelado |
+| **Escalabilidad** | Plan permite fácilmente ampliar variables o frecuencia de recogida | Plan permite extensiones | Plan funcional pero rígido | Plan no escalable |
+
+### **Puntuación Total**
+
+| Dimensión | Peso | Nota |
+|:----------|:-----|:-----|
+| Planificación y diseño técnico | 40% | ___ / 10 |
+| Calidad de datos y RGPD | 30% | ___ / 10 |
+| Documentación y comunicación | 20% | ___ / 10 |
+| Coherencia con el proyecto | 10% | ___ / 10 |
+| **NOTA FINAL** | **100%** | **___ / 10** |
+
+### **Bonificaciones (+0.5 cada una, máximo +1.0)**
+
+- [ ] **Innovación técnica**: Usa tecnologías avanzadas (APIs, IoT, automatización) de forma excepcional
+- [ ] **Recogida real iniciada**: Ya ha comenzado a recoger datos reales del centro durante la actividad
+
+### **Penalizaciones**
+
+- **-1.0**: Entrega fuera de plazo sin justificación
+- **-2.0**: No cumple RGPD (recoge datos personales identificables sin consentimiento)
+- **-0.5**: Documentación incompleta o archivos no funcionan
+- **-1.0**: El plan no es viable técnicamente
 
 ---
 

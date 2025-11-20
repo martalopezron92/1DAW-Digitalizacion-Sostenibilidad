@@ -219,7 +219,7 @@ La presentación debe incluir **obligatoriamente** los siguientes apartados:
 
 ## 🧾 **Criterios de Evaluación**
 
-Esta presentación trabaja los siguientes Resultados de Aprendizaje:
+Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Trimestre**:
 
 ### 📱 **Digitalización aplicada al sistema productivo**
 
@@ -228,14 +228,23 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje:
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
 | **a)** Descripción del concepto de digitalización | Explica claramente cómo el proyecto digitaliza la recogida y análisis de datos |
-| **c)** Diferencias entre IT y OT | Identifica correctamente en la presentación fuentes IT (sistemas) y OT (sensores) |
+| **c)** Diferencias entre IT y OT | Identifica correctamente en la presentación fuentes IT (sistemas de gestión) y OT (sensores, medidores) |
+| **d)** Identificación de departamentos/entornos IT | Reconoce sistemas de información del centro como fuentes de datos |
 
-**RA6**: Desarrolla un proyecto de transformación digital.
+**RA2**: Caracteriza las tecnologías habilitadoras digitales necesarias para la transformación digital.
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
-| **a)** Identificación de objetivos estratégicos | Presenta claramente los objetivos del proyecto alineados con ODS |
-| **j)** Documentación de cambios según estrategia | Comunica de forma estructurada todo el proceso realizado |
+| **a)** Identificación de las principales THD | Presenta las tecnologías utilizadas (IoT, formularios digitales, APIs, bases de datos) |
+| **b)** Relación de THD con desarrollo de productos/servicios | Explica cómo las THD permiten crear el sistema de análisis de sostenibilidad |
+
+**RA5**: Evalúa la importancia de los datos y su protección.
+
+| Criterio | Indicador de logro |
+|:---------|:-------------------|
+| **a)** Diferencia entre dato e información | Distingue claramente datos brutos recogidos de la información procesada/analizada |
+| **b)** Descripción del ciclo de vida del dato | Presenta el flujo completo: captura → almacenamiento → procesamiento |
+| **i)** Importancia de seguridad y regulación de datos | Menciona aspectos de RGPD, anonimización o protección aplicados |
 
 ### 🌱 **Sostenibilidad aplicada al sistema productivo**
 
@@ -243,14 +252,24 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje:
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
-| **c)** Relación de ODS con Agenda 2030 | Justifica correctamente la selección de ODS para el proyecto |
-| **d)** Identificación de aspectos ASG materiales | Explica qué dimensión ASG se trabaja y por qué |
+| **a)** Descripción del concepto de sostenibilidad y marcos internacionales | Explica correctamente ODS y su relación con la Agenda 2030 |
+| **c)** Relación de ODS con Agenda 2030 | Justifica la selección de ODS específicos para el proyecto |
+| **d)** Identificación de aspectos ASG materiales | Explica qué dimensión ASG (A, S o G) se trabaja y su importancia |
+| **e)** Métricas para evaluación del desempeño | Presenta los indicadores ASG que se medirán en el proyecto |
+
+**RA2**: Caracteriza los retos ambientales y sociales y propone acciones.
+
+| Criterio | Indicador de logro |
+|:---------|:-------------------|
+| **b)** Relación de retos con desarrollo de actividad económica | Conecta el ámbito elegido con retos reales de sostenibilidad |
+| **d)** Identificación de medidas para minimizar impactos | Explica cómo los datos permitirán identificar áreas de mejora |
 
 **RA3**: Establece criterios de sostenibilidad en el desempeño profesional.
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
-| **a)** Identificación de ODS relevantes para la actividad | Conecta el proyecto con la actividad profesional de desarrollo de aplicaciones |
+| **a)** Identificación de ODS relevantes para la actividad profesional | Conecta el proyecto con la actividad de desarrollo de aplicaciones y análisis de datos |
+| **c)** Acciones necesarias desde la actividad profesional | Presenta el plan de recogida y análisis como acción profesional concreta |
 
 ### 🤝 **Competencias Transversales**
 
