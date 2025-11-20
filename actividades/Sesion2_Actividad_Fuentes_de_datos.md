@@ -107,14 +107,15 @@ Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 |:---------|:-------------------|:------------|
 | **a)** Se han identificado las principales tecnologías habilitadoras digitales | Identifica tecnologías como APIs, IoT, portales de datos abiertos y su aplicación en la recogida de datos | Tabla de fuentes externas |
 | **b)** Se han relacionado las THD con el desarrollo de productos y servicios | Comprende cómo las THD permiten acceder y procesar datos para generar conocimiento | Justificación final del informe |
+| **c)** Se ha descrito la importancia de las THD con el desarrollo de una economía sostenible y eficiente | Conecta las tecnologías identificadas con los objetivos de sostenibilidad del proyecto | Informe comparativo |
+| **d)** Se han identificado los nuevos mercados generados a raíz de las THD | Menciona posibles aplicaciones o extensiones del análisis de datos de sostenibilidad | Justificación final |
+| **g)** Se ha elaborado un informe donde se relacionen las tecnologías con sus características y áreas de aplicación | El informe documenta tecnologías, características técnicas y aplicación al proyecto | Informe completo |
 
 **RA5**: Evalúa la importancia de los datos y su protección.
 
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
-| **a)** Se ha establecido la diferencia entre dato e información | Distingue entre datos brutos y la información procesada que pueden generar | Informe comparativo |
-| **b)** Se ha descrito el ciclo de vida del dato | Identifica la fase de captura y origen de los datos en el ciclo completo | Análisis de fuentes internas |
-| **i)** Se ha valorado la importancia de la seguridad y regulación en relación con los datos | Verifica licencias, permisos de acceso y normativa de uso de los datos seleccionados | Tabla comparativa (columna licencia) |
+| **a)** Se ha establecido la diferencia entre dato e información | Distingue entre datos brutos de las fuentes y la información que pueden generar tras procesarlos | Informe comparativo |
 
 ### 🌱 **Sostenibilidad aplicada al sistema productivo**
 
@@ -122,13 +123,10 @@ Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
+| **a)** Se han identificado principales retos ambientales y sociales | Identifica claramente los retos del ámbito elegido (energía, residuos, movilidad, etc.) | Selección de ámbito y fuentes |
 | **b)** Se han relacionado los retos ambientales y sociales con el desarrollo de la actividad económica | Busca datos específicos relacionados con aspectos ASG del ámbito elegido | Selección y relevancia de fuentes |
-
-**RA3**: Establece la aplicación de criterios de sostenibilidad en el desempeño profesional.
-
-| Criterio | Indicador de logro | Instrumento |
-|:---------|:-------------------|:------------|
-| **c)** Se han identificado acciones necesarias para atender retos desde la actividad profesional | Selecciona fuentes de datos pertinentes que permitirán medir y actuar sobre problemas de sostenibilidad | Justificación de selección de fuentes |
+| **c)** Se ha analizado el efecto de los impactos ambientales y sociales sobre las personas y los sectores | Explica en el informe el impacto de los problemas identificados en el ámbito elegido | Análisis en informe comparativo |
+| **e)** Se ha valorado la importancia de las alianzas y el trabajo en red coordinado | Identifica la necesidad de colaboración entre actores (centro, administración, comunidad) para obtener datos | Análisis de viabilidad técnica |
 
 ### 📊 **Rúbrica de evaluación por niveles**
 

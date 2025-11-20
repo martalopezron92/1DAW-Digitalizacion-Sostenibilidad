@@ -227,6 +227,7 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Tr
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
+| **a)** Descripción del concepto de digitalización | Explica claramente cómo el proyecto digitaliza la recogida y análisis de datos |
 | **e)** Selección de tecnologías típicas de digitalización | Presenta y justifica las tecnologías seleccionadas para planta y negocio |
 | **f)** Importancia de conexión entre IT y OT | Explica de forma integrada cómo se relacionan datos de ambos entornos |
 | **g)** Ventajas de digitalizar de extremo a extremo | Presenta los beneficios del sistema completo desde recogida hasta análisis |
@@ -235,6 +236,8 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Tr
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
+| **a)** Identificación de las principales THD | Presenta las tecnologías utilizadas (IoT, formularios digitales, APIs, bases de datos) |
+| **b)** Relación de THD con desarrollo de productos/servicios | Explica cómo las THD permiten crear el sistema de análisis de sostenibilidad |
 | **c)** Importancia de THD con economía sostenible y eficiente | Conecta de forma argumentada las tecnologías con objetivos de sostenibilidad |
 | **d)** Identificación de nuevos mercados generados por THD | Menciona posibles aplicaciones, extensiones o nuevos servicios del sistema |
 | **f)** Mejoras producidas por THD en IT y OT | Presenta las mejoras reales conseguidas al integrar diferentes fuentes |
@@ -254,6 +257,9 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Tr
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
+| **a)** Descripción del concepto de sostenibilidad y marcos internacionales | Explica correctamente ODS y su relación con la Agenda 2030 |
+| **b)** Identificación de asuntos ASG que influyen en desarrollo sostenible | Identifica aspectos ambientales, sociales y de gobernanza del ámbito elegido |
+| **c)** Relación de ODS con Agenda 2030 | Justifica la selección de ODS específicos para el proyecto |
 | **d)** Identificación de aspectos ASG materiales | Explica qué dimensión ASG (A, S o G) se trabaja y justifica su materialidad |
 | **e)** Métricas para evaluación del desempeño | Presenta de forma integrada los indicadores ASG que se medirán |
 | **f)** Inversión socialmente responsable | Argumenta la importancia de medir y comunicar la sostenibilidad |
@@ -262,6 +268,8 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Tr
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
+| **a)** Identificación de principales retos ambientales y sociales | Identifica claramente los retos del ámbito elegido (energía, residuos, etc.) |
+| **b)** Relación de retos con desarrollo de actividad económica | Conecta el ámbito elegido con retos reales de sostenibilidad |
 | **c)** Análisis del efecto de impactos sobre personas y sectores | Explica de forma fundamentada el impacto de los problemas identificados |
 | **d)** Identificación de medidas para minimizar impactos | Presenta propuestas concretas de mejora basadas en los datos analizados |
 | **e)** Importancia de alianzas y trabajo coordinado | Argumenta la necesidad de colaboración entre actores del centro/comunidad |

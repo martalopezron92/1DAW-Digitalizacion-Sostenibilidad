@@ -93,15 +93,16 @@ Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
 | **a)** Se ha descrito el concepto de sostenibilidad y marcos internacionales | El equipo explica correctamente qué son los ODS y su relación con la Agenda 2030 | Debate grupal y ficha de equipo |
+| **b)** Se han identificado asuntos ASG que influyen en el desarrollo sostenible | Identifica aspectos ambientales, sociales o de gobernanza del ámbito elegido | Ficha de equipo |
 | **c)** Se han relacionado los ODS con su importancia para la Agenda 2030 | Identifica al menos 2 ODS relevantes para su ámbito de análisis y justifica su elección | Ficha de equipo |
-| **d)** Se ha analizado la importancia de identificar aspectos ASG relevantes | Reconoce correctamente qué dimensión ASG (A, S o G) se relaciona con su proyecto | Ficha de equipo |
+| **d)** Se ha analizado la importancia de identificar aspectos ASG relevantes | Reconoce correctamente qué dimensión ASG (A, S o G) es material para su proyecto y justifica su relevancia | Ficha de equipo |
+| **f)** Se han identificado elementos de la inversión socialmente responsable | Comprende la importancia de medir y comunicar la sostenibilidad en organizaciones | Debate grupal |
 
 **RA3**: Establece la aplicación de criterios de sostenibilidad en el desempeño profesional y personal.
 
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
-| **a)** Se han identificado los ODS más relevantes para la actividad profesional | Selecciona ODS pertinentes al ámbito educativo/tecnológico elegido | Ficha de equipo |
-| **c)** Se han identificado acciones necesarias desde la actividad profesional | Formula preguntas de investigación concretas y medibles sobre su ámbito | Preguntas de investigación en ficha |
+| **a)** Se han identificado los ODS más relevantes para la actividad profesional | Selecciona ODS pertinentes al ámbito educativo/tecnológico y a la profesión de desarrollo de aplicaciones | Ficha de equipo |
 
 ### 📱 **Digitalización aplicada al sistema productivo**
 
@@ -110,7 +111,9 @@ Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
 | **a)** Se ha descrito en qué consiste el concepto de digitalización | Comprende que el proyecto implica recoger y analizar datos digitalmente | Ficha de planificación |
-| **d)** Se han identificado departamentos/ámbitos que constituyen entornos IT | Identifica posibles fuentes de datos digitales del centro (sistemas de gestión, sensores, etc.) | Fuentes de información en ficha |
+| **e)** Se han seleccionado tecnologías típicas de digitalización para la planta y el negocio | Identifica qué tecnologías digitales se podrían usar para recoger datos (sensores, formularios, APIs) | Fuentes de información en ficha |
+| **f)** Se ha valorado la importancia de la conexión entre entornos IT y OT | Comprende que el proyecto requiere integrar datos de gestión (IT) y operacionales (OT) | Debate grupal |
+| **g)** Se han descrito las ventajas de digitalizar de extremo a extremo | Identifica los beneficios de digitalizar todo el proceso desde captura hasta análisis | Ficha de planificación |
 
 
 ---

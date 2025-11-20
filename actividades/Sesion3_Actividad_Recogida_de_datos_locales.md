@@ -106,23 +106,20 @@ Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
 | **b)** Se ha relacionado la implantación de tecnología digital con la organización | Diseña un proceso de recogida de datos aplicando tecnología digital al centro | Documento técnico del plan |
-| **c)** Se han establecido diferencias entre IT y OT | Identifica correctamente si usa métodos IT (formularios) u OT (sensores físicos) | Plan de recogida y diagrama |
 
 **RA2**: Caracteriza las tecnologías habilitadoras digitales necesarias para la transformación digital.
 
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
-| **a)** Se han identificado las principales THD | Selecciona herramientas digitales apropiadas (Forms, sensores IoT, hojas de cálculo) | Métodos elegidos y justificación |
 | **e)** Se ha analizado la implicación de THD en negocio y planta | Comprende cómo las THD permiten capturar datos tanto de gestión como operacionales | Documento técnico |
+| **f)** Se han descrito las mejoras producidas por la implantación de THD en los entornos IT y OT | Explica cómo las herramientas digitales mejoran la captura e integración de datos | Justificación del plan |
 
 **RA5**: Evalúa la importancia de los datos y su protección.
 
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
-| **a)** Se ha establecido la diferencia entre dato e información | Identifica qué datos brutos recoger para generar información útil | Tabla de variables |
-| **b)** Se ha descrito el ciclo de vida del dato | Diseña correctamente la fase de captura incluyendo almacenamiento inicial | Diagrama de flujo de datos |
+| **b)** Se ha descrito el ciclo de vida del dato | Diseña correctamente la fase de captura incluyendo almacenamiento inicial y procesamiento futuro | Diagrama de flujo de datos |
 | **i)** Se ha valorado la importancia de la seguridad y regulación | Aplica principios de RGPD: anonimización, consentimiento, minimización de datos | Checklist RGPD completada |
-
 
 ### 🌱 **Sostenibilidad aplicada al sistema productivo**
 
@@ -130,20 +127,19 @@ Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
-| **d)** Se ha analizado la importancia de identificar aspectos ASG relevantes | Selecciona variables que miden indicadores ASG concretos del ámbito elegido | Tabla de variables con justificación |
 | **e)** Se han identificado métricas para evaluación del desempeño | Define variables medibles y con unidades apropiadas para indicadores de sostenibilidad | Tabla de variables completa |
 
 **RA2**: Caracteriza los retos ambientales y sociales y propone acciones.
 
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
-| **d)** Se han identificado medidas encaminadas a minimizar impactos | El plan de recogida permite obtener datos para identificar áreas de mejora | Justificación del plan |
+| **d)** Se han identificado medidas encaminadas a minimizar impactos | El plan de recogida permite obtener datos para identificar áreas de mejora y proponer soluciones | Justificación del plan |
 
 **RA3**: Establece criterios de sostenibilidad en el desempeño profesional.
 
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
-| **c)** Se han identificado acciones necesarias para atender retos desde la actividad profesional | Diseña un método de recogida que atiende el reto de sostenibilidad del ámbito | Plan técnico completo |
+| **c)** Se han identificado acciones necesarias para atender retos desde la actividad profesional | Diseña un método de recogida que atiende el reto de sostenibilidad del ámbito como acción profesional concreta | Plan técnico completo |
 
 ---
 
