@@ -135,6 +135,8 @@ Esta práctica trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
+| **a)** Descripción del concepto de digitalización | El modelo de datos representa la digitalización del sistema de información de sostenibilidad |
+| **b)** Relación de implantación de tecnología digital con organización | El diseño se adapta a la estructura organizativa del centro educativo |
 | **c)** Diferencias y similitudes entre IT y OT | El modelo distingue claramente datos de sistemas IT (gestión) y OT (sensores, medidores físicos) |
 | **d)** Identificación de departamentos/entornos IT | Identifica y modela correctamente las fuentes de datos digitales del centro |
 
@@ -142,8 +144,9 @@ Esta práctica trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
-| **e)** Identificación de THD en negocio y planta | El modelo contempla la captura de datos tanto de gestión como operacionales |
-| **f)** Mejoras por implantación de THD en IT y OT | Diseña estructuras que permitan integrar datos de diferentes fuentes tecnológicas |
+| **a)** Identificación de las principales THD | El modelo contempla datos de IoT, APIs, sensores y plataformas digitales |
+| **b)** Relación de THD con desarrollo de productos/servicios | El diseño permite generar servicios de análisis y reporting de sostenibilidad |
+| **e)** Implicación de THD en negocio y planta | El modelo contempla la captura de datos tanto de gestión como operacionales |
 
 **RA5**: Evalúa la importancia de los datos y su protección.
 
@@ -160,8 +163,16 @@ Esta práctica trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
-| **d)** Identificación de aspectos ASG relevantes | El modelo incluye entidades y atributos para medir indicadores ASG seleccionados |
-| **e)** Métricas para evaluación del desempeño | Diseña estructuras que permitan calcular métricas de sostenibilidad |
+| **a)** Descripción del concepto de sostenibilidad y marcos internacionales | El modelo refleja la estructura necesaria para medir ODS y marcos de sostenibilidad |
+| **b)** Identificación de asuntos ASG | El diseño contempla entidades para aspectos ambientales, sociales y de gobernanza |
+| **c)** Relación de ODS con Agenda 2030 | La estructura permite vincular datos con ODS específicos |
+
+**RA2**: Caracteriza los retos ambientales y sociales y propone acciones.
+
+| Criterio | Indicador de logro |
+|:---------|:-------------------|
+| **a)** Identificación de principales retos ambientales y sociales | El modelo incluye entidades para datos relacionados con retos del ámbito elegido |
+| **b)** Relación de retos con desarrollo de actividad | La estructura de datos conecta indicadores con la actividad del centro |
 
 ---
 

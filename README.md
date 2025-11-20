@@ -93,7 +93,7 @@ Cada grupo presentará un **proyecto completo**, formado por:
 📊 **Producto parcial:** dashboard funcional con indicadores y comparativas.  
 🧩 **RA implicados:**  
 - **Digitalización:** RA3 (Cloud/almacenamiento (dual)), RA4 (IA/análisis), RA5 (Protección de datos/continuación)  
-- **Sostenibilidad:** RA4 (Economía circular(dual)), RA5 (Actividades sostenibles)
+- **Sostenibilidad:** RA3 (Criterios sostenibles), RA4 (Economía circular(dual)), RA5 (Actividades sostenibles)
 
 
 ---
