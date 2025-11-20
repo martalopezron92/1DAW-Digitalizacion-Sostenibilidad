@@ -84,11 +84,34 @@ Cada equipo entregará una **ficha de equipo** con la siguiente información:
 
 ## 🧾 **Criterios de evaluación**
 
-| Criterio | Indicador | Instrumento |
-|:--|:--|:--|
-| **SOST-RA1** | Identifica correctamente los criterios ASG y su relación con los ODS. | Ficha de equipo y debate grupal. |
-| **DIG-RA1** | Reconoce los posibles sistemas y flujos de información que se analizarán. | Ficha de planificación inicial. |
-| **Competencias transversales** | Participación activa, organización y claridad en la exposición. | Rúbrica de trabajo en grupo y observación directa. |
+Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de Evaluación:
+
+### 🌱 **Sostenibilidad aplicada al sistema productivo**
+
+**RA1**: Identifica los aspectos ambientales, sociales y de gobernanza (ASG) relativos a la sostenibilidad teniendo en cuenta el concepto de desarrollo sostenible y los marcos internacionales.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **a)** Se ha descrito el concepto de sostenibilidad y marcos internacionales | El equipo explica correctamente qué son los ODS y su relación con la Agenda 2030 | Debate grupal y ficha de equipo |
+| **c)** Se han relacionado los ODS con su importancia para la Agenda 2030 | Identifica al menos 2 ODS relevantes para su ámbito de análisis y justifica su elección | Ficha de equipo |
+| **d)** Se ha analizado la importancia de identificar aspectos ASG relevantes | Reconoce correctamente qué dimensión ASG (A, S o G) se relaciona con su proyecto | Ficha de equipo |
+
+**RA3**: Establece la aplicación de criterios de sostenibilidad en el desempeño profesional y personal.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **a)** Se han identificado los ODS más relevantes para la actividad profesional | Selecciona ODS pertinentes al ámbito educativo/tecnológico elegido | Ficha de equipo |
+| **c)** Se han identificado acciones necesarias desde la actividad profesional | Formula preguntas de investigación concretas y medibles sobre su ámbito | Preguntas de investigación en ficha |
+
+### 📱 **Digitalización aplicada al sistema productivo**
+
+**RA1**: Analiza el concepto de digitalización y su repercusión identificando entornos IT y OT.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **a)** Se ha descrito en qué consiste el concepto de digitalización | Comprende que el proyecto implica recoger y analizar datos digitalmente | Ficha de planificación |
+| **d)** Se han identificado departamentos/ámbitos que constituyen entornos IT | Identifica posibles fuentes de datos digitales del centro (sistemas de gestión, sensores, etc.) | Fuentes de información en ficha |
+
 
 ---
 

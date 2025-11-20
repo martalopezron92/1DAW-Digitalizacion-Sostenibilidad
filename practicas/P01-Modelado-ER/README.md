@@ -28,8 +28,8 @@ Al finalizar esta práctica, el estudiante será capaz de:
 ## 📚 **Antes de empezar, lee:**
 
 - 📖 [Apuntes: Modelado de datos](../../apuntes/Sesion4_Modelado_de_datos.md)
-- 📝 [Actividad previa: Modelado](../../actividades/Sesion4_Actividad_Modelado.md)
-- 📊 [Rúbrica específica](../../docs/rubrica/R01-Rubrica.md)
+<!-- - 📝 [Actividad previa: Modelado](../../actividades/Sesion4_Actividad_Modelado.md) -->
+<!-- - 📊 [Rúbrica específica](../../docs/rubrica/R01-Rubrica.md) -->
 
 ---
 
@@ -39,20 +39,7 @@ Tu equipo debe crear el **modelo de datos** que servirá como base para todo el 
 
 - Reflejar los **datos reales** que habéis recopilado del centro
 - Ser **escalable** para añadir nuevos tipos de datos
-- Cumplir con **estándares de normalización** (mínimo 3FN)
 - Incluir los **indicadores ASG** que habéis seleccionado
-
-### **Ámbitos de Trabajo Disponibles**
-
-Elegid **uno** de los siguientes ámbitos para vuestro modelo:
-
-| Ámbito | Entidades Principales | Indicadores ASG Típicos |
-|:-------|:---------------------|:-------------------------|
-| **🔋 Energía** | Edificios, Equipos, Consumos, Medidores | kWh/m², emisiones CO₂, % renovables |
-| **♻️ Residuos** | Contenedores, Tipos de residuo, Recogidas | kg/persona, % reciclado, rutas optimizadas |
-| **🚗 Movilidad** | Vehículos, Rutas, Transportes, Usuarios | km/día, % transporte público, emisiones |
-| **💻 TIC** | Dispositivos, Software, Usuarios, Proyectos | Antigüedad equipos, % actualizado, eficiencia |
-| **👥 Bienestar** | Personas, Espacios, Actividades, Satisfacción | Calidad aire, temperatura, índice bienestar |
 
 ---
 
@@ -72,17 +59,11 @@ Tu modelo debe incluir **al menos**:
 - Mínimo **2 relaciones muchos-a-muchos** (con tabla intermedia)
 - **1 relación jerárquica** (auto-referencia o herencia)
 
-### **Normalización**
-- **1FN**: Sin grupos repetidos, claves primarias definidas
-- **2FN**: Sin dependencias funcionales parciales
-- **3FN**: Sin dependencias transitivas
-- **Opcional**: BCNF para nota excelente
-
 ### **Integridad Referencial**
 - **Claves primarias** en todas las tablas
 - **Claves foráneas** correctamente definidas
-- **Constraints** apropiados (CHECK, UNIQUE, NOT NULL)
-- **Índices** en campos de búsqueda frecuente
+<!-- - **Constraints** apropiados (CHECK, UNIQUE, NOT NULL)
+- **Índices** en campos de búsqueda frecuente -->
 
 ---
 
@@ -94,11 +75,6 @@ Tu modelo debe incluir **al menos**:
 - **MySQL Workbench** (profesional)
 - **Lucidchart** (con cuenta edu)
 
-### **Para Validación**
-- **PostgreSQL** o **MySQL** para implementar el esquema
-- **DBDesigner** para verificar normalización
-- **SQLiteStudio** para pruebas rápidas
-
 ---
 
 ## 📝 **Entregables**
@@ -109,19 +85,9 @@ Tu modelo debe incluir **al menos**:
   - Todas las entidades con atributos
   - Relaciones con cardinalidades
   - Claves primarias y foráneas marcadas
-  - Constraints visibles
 - **Naming**: `P01_DiagramaER_EquipoX.pdf`
 
-### **2. Esquema SQL Implementado** 💾
-- **Formato**: Archivo .sql
-- **Contenido**:
-  - Sentencias CREATE TABLE completas
-  - Definición de todas las claves
-  - Constraints e índices
-  - Comentarios explicativos
-- **Naming**: `P01_EsquemaBD_EquipoX.sql`
-
-### **3. Diccionario de Datos** 📖
+### **2. Diccionario de Datos** 📖
 - **Formato**: Documento Markdown
 - **Contenido**:
   - Descripción de cada entidad
@@ -130,19 +96,10 @@ Tu modelo debe incluir **al menos**:
   - Reglas de negocio aplicadas
 - **Naming**: `P01_Diccionario_EquipoX.md`
 
-### **4. Datos de Prueba** 🧪
-- **Formato**: Archivo .sql con INSERTs
-- **Contenido**:
-  - Mínimo 10 registros por entidad principal
-  - Datos realistas del ámbito elegido
-  - Cobertura de todos los casos de uso
-- **Naming**: `P01_DatosPrueba_EquipoX.sql`
-
-### **5. Documento de Justificación** 📋
+### **3. Documento de Justificación** 📋
 - **Formato**: PDF (máximo 3 páginas)
 - **Contenido**:
   - Decisiones de diseño tomadas
-  - Proceso de normalización seguido
   - Problemas encontrados y soluciones
   - Futuras extensiones posibles
 - **Naming**: `P01_Justificacion_EquipoX.pdf`
@@ -152,62 +109,128 @@ Tu modelo debe incluir **al menos**:
 ## ✅ **Criterios de Aceptación**
 
 ### **Funcionales**
-- [ ] El modelo refleja los datos reales recopilados
-- [ ] Está normalizado hasta 3FN mínimo
 - [ ] Incluye los indicadores ASG seleccionados
-- [ ] El esquema SQL es ejecutable sin errores
-- [ ] Los datos de prueba cargan correctamente
 
 ### **Técnicos**
 - [ ] Todas las tablas tienen clave primaria
 - [ ] Las relaciones están correctamente implementadas
-- [ ] Los constraints previenen datos inconsistentes
 - [ ] Los tipos de datos son apropiados
-- [ ] Los nombres siguen convenciones (snake_case)
+- [ ] Los nombres siguen convenciones
 
 ### **Documentación**
 - [ ] El diagrama ER es claro y completo
 - [ ] El diccionario describe todas las entidades
 - [ ] Las justificaciones están bien argumentadas
 - [ ] Los archivos están correctamente nombrados
-- [ ] El código SQL está comentado
 
 ---
 
 ## 🎯 **Cómo te evaluaremos**
 
-Consulta la **[Rúbrica específica P01](../../docs/rubrica/R01-Rubrica.md)** para conocer los criterios detallados.
+Esta práctica trabaja los siguientes Resultados de Aprendizaje y Criterios de Evaluación:
 
-### **Resumen de Dimensiones**
+### 📱 **Digitalización aplicada al sistema productivo**
 
-| Dimensión | Peso | Qué evaluamos |
-|:----------|:-----|:--------------|
-| **Corrección técnica** | 40% | Normalización, SQL válido, integridad |
-| **Completitud** | 25% | Todos los entregables, requisitos cumplidos |
-| **Calidad del diseño** | 20% | Elegancia, escalabilidad, buenas prácticas |
-| **Documentación** | 15% | Claridad, justificaciones, presentación |
+**RA1**: Analiza el concepto de digitalización y su repercusión identificando entornos IT y OT.
 
-### **Para alcanzar la Excelencia (9-10)**
-- Normalización BCNF o superior
-- Diseño especialmente elegante y escalable
-- Documentación profesional y exhaustiva
-- Innovación en el modelado (patrones avanzados)
-- Validación con datos reales excepcional
+| Criterio | Indicador de logro |
+|:---------|:-------------------|
+| **c)** Diferencias y similitudes entre IT y OT | El modelo distingue claramente datos de sistemas IT (gestión) y OT (sensores, medidores físicos) |
+| **d)** Identificación de departamentos/entornos IT | Identifica y modela correctamente las fuentes de datos digitales del centro |
+
+**RA2**: Caracteriza las tecnologías habilitadoras digitales necesarias para la transformación digital.
+
+| Criterio | Indicador de logro |
+|:---------|:-------------------|
+| **e)** Identificación de THD en negocio y planta | El modelo contempla la captura de datos tanto de gestión como operacionales |
+| **f)** Mejoras por implantación de THD en IT y OT | Diseña estructuras que permitan integrar datos de diferentes fuentes tecnológicas |
+
+**RA5**: Evalúa la importancia de los datos y su protección.
+
+| Criterio | Indicador de logro |
+|:---------|:-------------------|
+| **b)** Descripción del ciclo de vida del dato | El modelo refleja correctamente la fase de almacenamiento estructurado de datos |
+| **d)** Características que definen Big Data | Diseña para escalabilidad, contemplando volumen, variedad y velocidad |
+| **e)** Etapas de ciencia de datos y su relación | Estructura los datos de forma que faciliten su posterior análisis |
+
+**RA6**: Desarrolla un proyecto de transformación digital.
+
+| Criterio | Indicador de logro |
+|:---------|:-------------------|
+| **a)** Identificación de objetivos estratégicos | El modelo se alinea con los objetivos del proyecto de sostenibilidad |
+| **c)** Identificación de áreas susceptibles de digitalización | Modela correctamente los ámbitos elegidos (energía, residuos, etc.) |
+| **h)** Definición del tratamiento de datos y análisis | Estructura permite agregaciones, consultas y análisis posteriores |
+
+### 🌱 **Sostenibilidad aplicada al sistema productivo**
+
+**RA1**: Identifica aspectos ASG relativos a la sostenibilidad.
+
+| Criterio | Indicador de logro |
+|:---------|:-------------------|
+| **d)** Identificación de aspectos ASG relevantes | El modelo incluye entidades y atributos para medir indicadores ASG seleccionados |
+| **e)** Métricas para evaluación del desempeño | Diseña estructuras que permitan calcular métricas de sostenibilidad |
+
+**RA6**: Analiza un plan de sostenibilidad identificando aspectos ASG materiales.
+
+| Criterio | Indicador de logro |
+|:---------|:-------------------|
+| **d)** Determinación de métricas de evaluación del desempeño | El modelo permite almacenar y calcular indicadores según estándares de sostenibilidad |
 
 ---
 
-## 📅 **Planificación Sugerida**
+## 📊 **Rúbrica de Evaluación**
 
-### **Semana 7: Análisis y Diseño**
-- **Lunes**: Análisis de los datos recopilados
-- **Miércoles**: Identificación de entidades y atributos
-- **Viernes**: Primer borrador del diagrama ER
+### **Dimensión 1: Corrección Técnica (40%)**
 
-### **Semana 8: Implementación y Documentación**
-- **Lunes**: Normalización y refinamiento
-- **Miércoles**: Implementación del esquema SQL
-- **Viernes**: Documentación y entrega
+| Criterio | Excelente (9-10) | Notable (7-8) | Bien (5-6) | Insuficiente (0-4) |
+|:---------|:-----------------|:--------------|:-----------|:-------------------|
+| **Integridad referencial** | Todas las claves PK/FK correctas | Mayoria de PK/FK correctas | Algunas FK incorrectas | Faltan PK/FK |
+| **Tipos de datos** | Tipos óptimos, precisión adecuada, consideraciones de rendimiento | Tipos correctos y apropiados | Algunos tipos mejorables | Tipos inadecuados o incorrectos |
+| **Nomenclatura** | Convenciones claras, consistentes y profesionales en todo el modelo | Convenciones correctas con pequeñas inconsistencias | Nomenclatura aceptable pero mejorable | Nombres confusos o sin convención |
 
+### **Dimensión 2: Completitud (25%)**
+
+| Criterio | Excelente (9-10) | Notable (7-8) | Bien (5-6) | Insuficiente (0-4) |
+|:---------|:-----------------|:--------------|:-----------|:-------------------|
+| **Entidades requeridas** | Todas las mínimas + adicionales relevantes bien justificadas | Todas las entidades mínimas correctamente modeladas | Faltan 1-2 entidades secundarias | Faltan entidades principales |
+| **Relaciones** | Más de 5, correctamente modeladas, incluye M:N | 5 relaciones correctas, incluye M:N | 4-5 relaciones, alguna mejorable | Menos de 4 o errores conceptuales |
+| **Indicadores ASG** | Modelo completo para todos los indicadores seleccionados, extensible | Modelo para indicadores principales, escalable | Modelo básico para indicadores | No contempla indicadores ASG |
+| **Entregables** | Todos completos, profesionales, en formatos correctos | Todos presentes, correctos | Falta algún elemento secundario | Faltan entregables principales |
+
+### **Dimensión 3: Calidad del Diseño (20%)**
+
+| Criterio | Excelente (9-10) | Notable (7-8) | Bien (5-6) | Insuficiente (0-4) |
+|:---------|:-----------------|:--------------|:-----------|:-------------------|
+| **Escalabilidad** | Diseño muy flexible, fácil añadir nuevos datos/indicadores | Diseño permite extensiones sin grandes cambios | Permite extensiones con modificaciones | Diseño rígido, difícil de extender |
+| **Integración IT/OT** | Modelo integra perfectamente datos operacionales y de gestión | Distingue y conecta datos IT/OT correctamente | Contempla ambos tipos pero integración mejorable | No diferencia IT/OT adecuadamente |
+| **Elegancia** | Solución simple, clara y profesional, evita redundancia | Diseño claro y bien organizado | Funcional pero algo complejo | Diseño confuso o excesivamente complejo |
+
+### **Dimensión 4: Documentación (15%)**
+
+| Criterio | Excelente (9-10) | Notable (7-8) | Bien (5-6) | Insuficiente (0-4) |
+|:---------|:-----------------|:--------------|:-----------|:-------------------|
+| **Diagrama ER** | Muy claro, profesional, notación correcta, fácil de entender | Claro y completo, notación correcta | Legible pero mejorable estéticamente | Confuso o incompleto |
+| **Diccionario de datos** | Exhaustivo, describe todo, incluye ejemplos y validaciones | Completo, describe entidades y atributos correctamente | Básico, falta detalle en algunos elementos | Incompleto o superficial |
+| **Justificaciones** | Argumenta todas las decisiones con criterios técnicos y de negocio | Justifica decisiones principales correctamente | Justificaciones básicas | Faltan justificaciones o son débiles |
+| **Presentación** | Formato profesional, sin errores, estructura clara y organizada | Bien presentado, estructura correcta | Presentación aceptable | Desorganizado o con errores de formato |
+
+### **Puntuación Total**
+
+| Dimensión | Peso | Nota |
+|:----------|:-----|:-----|
+| Corrección técnica | 40% | ___ / 10 |
+| Completitud | 25% | ___ / 10 |
+| Calidad del diseño | 20% | ___ / 10 |
+| Documentación | 15% | ___ / 10 |
+| **NOTA FINAL** | **100%** | **___ / 10** |
+
+
+### **Penalizaciones**
+
+- **-1.0**: Entrega fuera de plazo sin justificación
+- **-0.5**: Archivos mal nombrados o estructura incorrecta
+- **-0.5**: Modelo no implementable (errores SQL graves)
+- **-2.0**: Evidencia de copia o falta de autoría del equipo
 ---
 
 ## 🆘 **¿Necesitas Ayuda?**
@@ -216,12 +239,6 @@ Consulta la **[Rúbrica específica P01](../../docs/rubrica/R01-Rubrica.md)** pa
 - 📚 [Tutorial de normalización](../../docs/recursos/TUTORIAL-NORMALIZACION.md)
 - 🎥 [Vídeo: Diagramas ER paso a paso](enlace-pendiente)
 - 🔧 [Herramientas de modelado](../../docs/recursos/HERRAMIENTAS-BD.md)
-
-### **Soporte**
-- **Dudas técnicas**: Abre un [issue en GitHub](../../issues/new?template=duda-practica.md)
-- **Problemas de equipo**: Habla con el profesor en tutoría
-- **Consultas rápidas**: Canal Discord del módulo
-
 ---
 
 ## 👥 **Checklist del Equipo**
@@ -238,44 +255,4 @@ Antes de entregar, verificad que:
 
 ---
 
-## 📤 **Instrucciones de Entrega**
-
-### **Dónde entregar**
-- **Repositorio GitHub** del equipo
-- **Carpeta**: `/practicas/P01-Modelado-ER/`
-- **Branch**: `main` (tras revisión en `develop`)
-
-### **Estructura de archivos**
-```
-P01-Modelado-ER/
-├── README.md (este archivo)
-├── diagramas/
-│   ├── P01_DiagramaER_EquipoX.pdf
-│   └── P01_DiagramaER_EquipoX.drawio
-├── sql/
-│   ├── P01_EsquemaBD_EquipoX.sql
-│   └── P01_DatosPrueba_EquipoX.sql
-├── docs/
-│   ├── P01_Diccionario_EquipoX.md
-│   └── P01_Justificacion_EquipoX.pdf
-└── evidencias/
-    └── capturas_funcionamiento/
-```
-
-### **Fecha límite**
-**📅 Viernes 15 de octubre a las 23:59**
-
-⚠️ **Importante**: Entregas tardías tienen penalización del 10% por día.
-
----
-
-## 🔄 **Actividad de origen**
-
-Esta práctica deriva de: [Actividad Sesión 4: Modelado](../../actividades/Sesion4_Actividad_Modelado.md)
-
----
-
 **🎓 ¡Buena suerte con vuestro primer modelo de datos!**
-
-**📅 Creado**: 26 octubre 2025  
-**👨‍🏫 Responsable**: Equipo docente Digitalización + Sostenibilidad

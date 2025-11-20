@@ -86,14 +86,59 @@ Cada grupo deberá localizar y analizar **fuentes de datos internas** (del centr
   Archivo digital (`.md`, `.docx` o `.pdf`) subido al aula virtual.  
   Incluid los enlaces a todas las fuentes consultadas.
 
-- **Evaluación (lista de cotejo):**
+---
 
-| Criterio | Nivel alto | Nivel medio | Nivel bajo |
-|-----------|-------------|--------------|-------------|
-| Pertinencia de las fuentes seleccionadas | Las fuentes se relacionan directamente con el ámbito y el proyecto. | Algunas fuentes son relevantes. | Las fuentes no están relacionadas con el tema. |
-| Fiabilidad y actualidad | Todas las fuentes son oficiales o verificadas, actualizadas. | La mayoría son fiables. | Varias fuentes son poco fiables o desactualizadas. |
-| Diversidad de fuentes | Incluye internas y externas, de distinto tipo (portal, API, dataset). | Incluye 2 tipos. | Solo un tipo o repetidas. |
-| Claridad y estructura del informe | Presentación ordenada y completa con tablas y justificación. | Presentación aceptable pero mejorable. | Desorganización o falta de justificación. |
+## 🧾 **Criterios de evaluación**
+
+Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de Evaluación:
+
+### 📱 **Digitalización aplicada al sistema productivo**
+
+**RA1**: Analiza el concepto de digitalización y su repercusión identificando entornos IT y OT.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **c)** Se han establecido diferencias y similitudes entre IT y OT | Identifica correctamente fuentes de datos de sistemas IT (bases de datos, aplicaciones) y OT (sensores, medidores físicos) | Tabla de fuentes internas |
+| **d)** Se han identificado departamentos típicos que constituyen entornos IT | Reconoce sistemas de gestión del centro como fuentes de información digital | Análisis de viabilidad técnica |
+
+**RA2**: Caracteriza las tecnologías habilitadoras digitales necesarias para la transformación digital.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **a)** Se han identificado las principales tecnologías habilitadoras digitales | Identifica tecnologías como APIs, IoT, portales de datos abiertos y su aplicación en la recogida de datos | Tabla de fuentes externas |
+| **b)** Se han relacionado las THD con el desarrollo de productos y servicios | Comprende cómo las THD permiten acceder y procesar datos para generar conocimiento | Justificación final del informe |
+
+**RA5**: Evalúa la importancia de los datos y su protección.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **a)** Se ha establecido la diferencia entre dato e información | Distingue entre datos brutos y la información procesada que pueden generar | Informe comparativo |
+| **b)** Se ha descrito el ciclo de vida del dato | Identifica la fase de captura y origen de los datos en el ciclo completo | Análisis de fuentes internas |
+| **i)** Se ha valorado la importancia de la seguridad y regulación en relación con los datos | Verifica licencias, permisos de acceso y normativa de uso de los datos seleccionados | Tabla comparativa (columna licencia) |
+
+### 🌱 **Sostenibilidad aplicada al sistema productivo**
+
+**RA2**: Caracteriza los retos ambientales y sociales y propone acciones para minimizarlos.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **b)** Se han relacionado los retos ambientales y sociales con el desarrollo de la actividad económica | Busca datos específicos relacionados con aspectos ASG del ámbito elegido | Selección y relevancia de fuentes |
+
+**RA3**: Establece la aplicación de criterios de sostenibilidad en el desempeño profesional.
+
+| Criterio | Indicador de logro | Instrumento |
+|:---------|:-------------------|:------------|
+| **c)** Se han identificado acciones necesarias para atender retos desde la actividad profesional | Selecciona fuentes de datos pertinentes que permitirán medir y actuar sobre problemas de sostenibilidad | Justificación de selección de fuentes |
+
+### 📊 **Rúbrica de evaluación por niveles**
+
+| Criterio | Nivel alto (9-10) | Nivel medio (6-8) | Nivel bajo (0-5) |
+|-----------|-------------------|-------------------|------------------|
+| **Pertinencia de las fuentes** | Las fuentes se relacionan directamente con el ámbito, aspectos ASG y los retos identificados | Algunas fuentes son relevantes pero faltan conexiones claras con ASG | Las fuentes no están relacionadas con el tema o aspectos sostenibles |
+| **Fiabilidad y actualidad** | Todas las fuentes son oficiales/verificadas, actualizadas y con licencia clara | La mayoría son fiables pero algunas carecen de verificación o actualización | Varias fuentes son poco fiables, desactualizadas o sin licencia identificada |
+| **Diversidad tecnológica** | Incluye fuentes IT y OT, internas y externas, de distinto tipo (portal, API, dataset, sensores) | Incluye 2-3 tipos diferentes de fuentes | Solo un tipo de fuente o todas similares |
+| **Viabilidad técnica** | Analiza en detalle la viabilidad de acceso, formato, automatización y permisos necesarios | Analiza parcialmente la viabilidad técnica | No analiza la viabilidad o lo hace de forma superficial |
+| **Claridad y estructura** | Presentación ordenada y completa con tablas detalladas, enlaces verificados y justificación sólida | Presentación aceptable pero mejorable en estructura o justificación | Desorganización, falta de justificación o documentación incompleta |
 
 ---
 

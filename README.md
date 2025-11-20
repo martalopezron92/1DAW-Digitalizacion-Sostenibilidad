@@ -41,22 +41,33 @@ Cada grupo presentará un **proyecto completo**, formado por:
 
 ## 🔗 Relación con las asignaturas y Resultados de Aprendizaje
 
-| Módulo | Resultado de Aprendizaje (RA) | Aplicación en el Proyecto |
+### 📱 **Digitalización aplicada al sistema productivo**
+
+| RA | Descripción | Aplicación en el Proyecto |
 |:--|:--|:--|
-| **Digitalización aplicada al sistema productivo** | **RA1**: Analiza los sistemas IT/OT y el flujo de información. | Identificación de fuentes y tipos de datos del centro. |
-|  | **RA2**: Aplica tecnologías habilitadoras digitales. | Uso de IoT, open data y APIs para la recogida de datos. |
-|  | **RA3**: Analiza información mediante técnicas de tratamiento de datos. | Limpieza, consultas SQL y análisis de datasets. |
-|  | **RA4**: Implanta soluciones basadas en IA o automatización. | Predicción de tendencias con Python o Power BI. |
-|  | **RA5**: Aplica medidas de ciberseguridad y protección de datos. | Gestión ética, backups y permisos de acceso. |
-| **Sostenibilidad aplicada al sistema productivo** | **RA1**: Analiza criterios ASG. | Selección de indicadores sostenibles (energía, igualdad, residuos…). |
-|  | **RA2**: Evalúa el impacto ambiental y social. | Comparación entre los datos del centro y los del sector. |
-|  | **RA3**: Propone acciones de mejora sostenible. | Plan de acción final con propuestas realistas. |
+| **RA1** | Analiza el concepto de digitalización y su repercusión en los sectores productivos identificando entornos IT y OT. | Identificación de sistemas IT/OT del centro, diferenciación entre datos operacionales y de gestión. |
+| **RA2** | Caracteriza las tecnologías habilitadoras digitales (THD) necesarias para la transformación digital. | Uso de IoT, sensores, APIs, open data y plataformas cloud para la recogida de datos. |
+| **RA3** | Identifica sistemas basados en cloud/nube y su influencia en el desarrollo de sistemas digitales. | Almacenamiento de datos en la nube, uso de servicios cloud para análisis y visualización. |
+| **RA4** | Identifica aplicaciones de la IA en entornos del sector describiendo las mejoras implícitas. | Predicción de tendencias, análisis de patrones con machine learning, automatización de reportes. |
+| **RA5** | Evalúa la importancia de los datos, su protección y sistemas de seguridad/ciberseguridad. | Gestión ética de datos, protección RGPD, backups, control de acceso a la información. |
+| **RA6** | Desarrolla un proyecto de transformación digital teniendo en cuenta los objetivos de la empresa. | Diseño e implementación del proyecto completo: desde la recogida hasta la visualización y propuestas. |
+
+### 🌱 **Sostenibilidad aplicada al sistema productivo**
+
+| RA | Descripción | Aplicación en el Proyecto |
+|:--|:--|:--|
+| **RA1** | Identifica los aspectos ASG relativos a la sostenibilidad y los marcos internacionales. | Selección de ODS relevantes, identificación de métricas ASG aplicables al centro educativo. |
+| **RA2** | Caracteriza los retos ambientales y sociales y propone acciones para minimizar impactos. | Análisis de datos de consumo, residuos, movilidad; identificación de problemas y soluciones. |
+| **RA3** | Establece la aplicación de criterios de sostenibilidad en el desempeño profesional y personal. | Vinculación del proyecto con ODS específicos, análisis de riesgos y oportunidades. |
+| **RA4** | Propone productos y servicios responsables según principios de economía circular. | Análisis del ciclo de vida, propuestas de ecodiseño, aplicación de principios de economía verde. |
+| **RA5** | Realiza actividades sostenibles minimizando el impacto en el medio ambiente. | Evaluación del impacto de actividades del centro, aplicación de estrategias sostenibles. |
+| **RA6** | Analiza un plan de sostenibilidad identificando grupos de interés y aspectos ASG materiales. | Elaboración del informe final de sostenibilidad con métricas, plan de acción e indicadores. |
 
 ---
 
 ## 📆 Estructura del Proyecto (por Trimestres)
 
-### 🧮 **1.º Trimestre – “Recogemos y estructuramos los datos”**
+### 🧮 **1.º Trimestre – "Recogemos y estructuramos los datos"**
 **Objetivo:** identificar la información que se va a analizar y crear la base de datos.  
 **Actividades principales:**
 - Presentación del proyecto, los ODS y los criterios ASG.  
@@ -65,11 +76,13 @@ Cada grupo presentará un **proyecto completo**, formado por:
 - Diseño del modelo entidad-relación y creación de la base de datos SQL.  
 
 🧩 **Producto parcial:** esquema de base de datos + primera carga de datos.  
-📊 **RA implicados:** DIG-RA1, RA2, RA3 / SOST-RA1  
+📊 **RA implicados:**  
+- **Digitalización:** RA1 (IT/OT), RA2 (THD), RA3 (Cloud)  
+- **Sostenibilidad:** RA1 (ASG y ODS), RA2 (Retos ambientales/sociales)
 
 ---
 
-### 📈 **2.º Trimestre – “Analizamos y visualizamos la realidad”**
+### 📈 **2.º Trimestre – "Analizamos y visualizamos la realidad"**
 **Objetivo:** aplicar técnicas de análisis de datos y crear visualizaciones.  
 **Actividades principales:**
 - Limpieza y normalización de datos.  
@@ -78,11 +91,13 @@ Cada grupo presentará un **proyecto completo**, formado por:
 - Evaluación del impacto ambiental o social según los indicadores ASG.  
 
 📊 **Producto parcial:** dashboard funcional con indicadores y comparativas.  
-🧩 **RA implicados:** DIG-RA3, RA4 / SOST-RA2  
+🧩 **RA implicados:**  
+- **Digitalización:** RA3 (Cloud/análisis), RA4 (IA), RA5 (Protección de datos)  
+- **Sostenibilidad:** RA2 (Retos y acciones), RA3 (Criterios sostenibles), RA4 (Economía circular)
 
 ---
 
-### 💡 **3.º Trimestre – “Decidimos y actuamos”**
+### 💡 **3.º Trimestre – "Decidimos y actuamos"**
 **Objetivo:** interpretar los resultados y proponer mejoras sostenibles.  
 **Actividades principales:**
 - Análisis de tendencias y conclusiones.  
@@ -90,7 +105,9 @@ Cada grupo presentará un **proyecto completo**, formado por:
 - Preparación de la presentación final (informe, panel visual, defensa oral).  
 
 📊 **Producto final:** informe + dashboard + plan de sostenibilidad.  
-🧩 **RA implicados:** DIG-RA4, RA5 / SOST-RA3  
+🧩 **RA implicados:**  
+- **Digitalización:** RA4 (IA/optimización), RA5 (Seguridad), RA6 (Proyecto transformación digital completo)  
+- **Sostenibilidad:** RA5 (Actividades sostenibles), RA6 (Plan de sostenibilidad con grupos de interés)
 
 ---
 
