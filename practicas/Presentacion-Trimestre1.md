@@ -236,8 +236,6 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Tr
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
-| **a)** Identificación de las principales THD | Presenta las tecnologías utilizadas (IoT, formularios digitales, APIs, bases de datos) |
-| **b)** Relación de THD con desarrollo de productos/servicios | Explica cómo las THD permiten crear el sistema de análisis de sostenibilidad |
 | **c)** Importancia de THD con economía sostenible y eficiente | Conecta de forma argumentada las tecnologías con objetivos de sostenibilidad |
 | **d)** Identificación de nuevos mercados generados por THD | Menciona posibles aplicaciones, extensiones o nuevos servicios del sistema |
 | **f)** Mejoras producidas por THD en IT y OT | Presenta las mejoras reales conseguidas al integrar diferentes fuentes |

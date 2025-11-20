@@ -101,17 +101,10 @@ Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 
 ### 📱 **Digitalización aplicada al sistema productivo**
 
-**RA1**: Analiza el concepto de digitalización y su repercusión identificando entornos IT y OT.
-
-| Criterio | Indicador de logro | Instrumento |
-|:---------|:-------------------|:------------|
-| **b)** Se ha relacionado la implantación de tecnología digital con la organización | Diseña un proceso de recogida de datos aplicando tecnología digital al centro | Documento técnico del plan |
-
 **RA2**: Caracteriza las tecnologías habilitadoras digitales necesarias para la transformación digital.
 
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
-| **e)** Se ha analizado la implicación de THD en negocio y planta | Comprende cómo las THD permiten capturar datos tanto de gestión como operacionales | Documento técnico |
 | **f)** Se han descrito las mejoras producidas por la implantación de THD en los entornos IT y OT | Explica cómo las herramientas digitales mejoran la captura e integración de datos | Justificación del plan |
 
 **RA5**: Evalúa la importancia de los datos y su protección.

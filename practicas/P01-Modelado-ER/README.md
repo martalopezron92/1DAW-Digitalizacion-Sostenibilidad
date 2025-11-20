@@ -134,10 +134,8 @@ Esta práctica trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 **RA1**: Analiza el concepto de digitalización y su repercusión identificando entornos IT y OT.
 
 | Criterio | Indicador de logro |
-|:---------|:-------------------|
-| **a)** Descripción del concepto de digitalización | El modelo de datos representa la digitalización del sistema de información de sostenibilidad |
+|:---------|:-------------------
 | **b)** Relación de implantación de tecnología digital con organización | El diseño se adapta a la estructura organizativa del centro educativo |
-| **c)** Diferencias y similitudes entre IT y OT | El modelo distingue claramente datos de sistemas IT (gestión) y OT (sensores, medidores físicos) |
 | **d)** Identificación de departamentos/entornos IT | Identifica y modela correctamente las fuentes de datos digitales del centro |
 
 **RA2**: Caracteriza las tecnologías habilitadoras digitales necesarias para la transformación digital.
@@ -152,7 +150,6 @@ Esta práctica trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
-| **b)** Descripción del ciclo de vida del dato | El modelo refleja correctamente la fase de almacenamiento estructurado de datos |
 | **d)** Características que definen Big Data | Diseña para escalabilidad, contemplando volumen, variedad y velocidad |
 | **e)** Etapas de ciencia de datos y su relación | Estructura los datos de forma que faciliten su posterior análisis |
 

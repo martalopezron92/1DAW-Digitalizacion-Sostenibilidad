@@ -99,14 +99,12 @@ Esta actividad trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
 | **c)** Se han establecido diferencias y similitudes entre IT y OT | Identifica correctamente fuentes de datos de sistemas IT (bases de datos, aplicaciones) y OT (sensores, medidores físicos) | Tabla de fuentes internas |
-| **d)** Se han identificado departamentos típicos que constituyen entornos IT | Reconoce sistemas de gestión del centro como fuentes de información digital | Análisis de viabilidad técnica |
+
 
 **RA2**: Caracteriza las tecnologías habilitadoras digitales necesarias para la transformación digital.
 
 | Criterio | Indicador de logro | Instrumento |
 |:---------|:-------------------|:------------|
-| **a)** Se han identificado las principales tecnologías habilitadoras digitales | Identifica tecnologías como APIs, IoT, portales de datos abiertos y su aplicación en la recogida de datos | Tabla de fuentes externas |
-| **b)** Se han relacionado las THD con el desarrollo de productos y servicios | Comprende cómo las THD permiten acceder y procesar datos para generar conocimiento | Justificación final del informe |
 | **c)** Se ha descrito la importancia de las THD con el desarrollo de una economía sostenible y eficiente | Conecta las tecnologías identificadas con los objetivos de sostenibilidad del proyecto | Informe comparativo |
 | **d)** Se han identificado los nuevos mercados generados a raíz de las THD | Menciona posibles aplicaciones o extensiones del análisis de datos de sostenibilidad | Justificación final |
 | **g)** Se ha elaborado un informe donde se relacionen las tecnologías con sus características y áreas de aplicación | El informe documenta tecnologías, características técnicas y aplicación al proyecto | Informe completo |
