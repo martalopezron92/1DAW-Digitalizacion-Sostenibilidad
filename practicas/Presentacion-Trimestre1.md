@@ -228,6 +228,7 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Tr
 | Criterio | Indicador de logro |
 |:---------|:-------------------|
 | **a)** Descripción del concepto de digitalización | Explica claramente cómo el proyecto digitaliza la recogida y análisis de datos |
+| **c)** Diferencias entre IT y OT | Identifica correctamente en la presentación fuentes IT (sistemas de gestión) y OT (sensores, medidores) |
 | **e)** Selección de tecnologías típicas de digitalización | Presenta y justifica las tecnologías seleccionadas para planta y negocio |
 | **f)** Importancia de conexión entre IT y OT | Explica de forma integrada cómo se relacionan datos de ambos entornos |
 | **g)** Ventajas de digitalizar de extremo a extremo | Presenta los beneficios del sistema completo desde recogida hasta análisis |
@@ -278,15 +279,6 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Tr
 |:---------|:-------------------|
 | **a)** Identificación de ODS relevantes para la actividad profesional | Conecta el proyecto con la actividad de desarrollo de aplicaciones y análisis de datos |
 | **c)** Acciones necesarias desde la actividad profesional | Presenta el plan de recogida y análisis como acción profesional concreta |
-
-### 🤝 **Competencias Transversales**
-
-| Competencia | Indicador de logro |
-|:------------|:-------------------|
-| **Comunicación oral** | Expresión clara, volumen adecuado, contacto visual con la audiencia |
-| **Trabajo en equipo** | Coordinación visible, transiciones fluidas, respeto de tiempos |
-| **Síntesis** | Capacidad de resumir 3 meses de trabajo en 20 minutos |
-| **Dominio técnico** | Responde con seguridad a preguntas sobre el proyecto |
 
 ---
 
@@ -397,4 +389,4 @@ Antes de la presentación, verificad que:
 - 🎥 [Ejemplos de presentaciones anteriores](enlace-pendiente)
 
 
-**¡Mucha suerte y a brillar! 🌟**
+**¡Mucha suerte, y recordad: una comida está en juego!**
