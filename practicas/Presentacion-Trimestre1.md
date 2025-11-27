@@ -380,13 +380,4 @@ Antes de la presentación, verificad que:
 - 🙏 Agradeced a la audiencia y al profesor
 
 ---
-
-## 🆘 **¿Necesitas Ayuda?**
-
-### **Recursos de Apoyo**
-- 📚 [Guía de presentaciones efectivas](../../docs/recursos/GUIA-PRESENTACIONES.md)
-- 🎨 [Plantillas de diseño](../../docs/recursos/PLANTILLAS.md)
-- 🎥 [Ejemplos de presentaciones anteriores](enlace-pendiente)
-
-
 **¡Mucha suerte, y recordad: una comida está en juego!**
