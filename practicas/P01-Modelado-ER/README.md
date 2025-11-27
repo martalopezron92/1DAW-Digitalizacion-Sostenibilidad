@@ -18,10 +18,8 @@
 Al finalizar esta práctica, el estudiante será capaz de:
 
 1. **Analizar** los datos recopilados del centro para identificar entidades y relaciones
-2. **Diseñar** un diagrama entidad-relación normalizado hasta 3FN
-3. **Implementar** la integridad referencial y constraints apropiados
-4. **Documentar** el modelo de datos con un diccionario completo
-5. **Validar** el diseño con los datos reales disponibles
+2. **Diseñar** un diagrama entidad-relación
+3. **Documentar** el modelo de datos con un diccionario completo
 
 ---
 
@@ -56,8 +54,8 @@ Tu modelo debe incluir **al menos**:
 
 ### **Relaciones Obligatorias**
 - Al menos **5 relaciones** entre entidades
-- Mínimo **2 relaciones muchos-a-muchos** (con tabla intermedia)
-- **1 relación jerárquica** (auto-referencia o herencia)
+- Mínimo **2 relaciones muchos-a-muchos** 
+- **1 relación jerárquica**
 
 ### **Integridad Referencial**
 - **Claves primarias** en todas las tablas
@@ -228,14 +226,6 @@ Esta práctica trabaja los siguientes Resultados de Aprendizaje y Criterios de E
 - **-2.0**: Evidencia de copia o falta de autoría del equipo
 ---
 
-## 🆘 **¿Necesitas Ayuda?**
-
-### **Recursos Adicionales**
-- 📚 [Tutorial de normalización](../../docs/recursos/TUTORIAL-NORMALIZACION.md)
-- 🎥 [Vídeo: Diagramas ER paso a paso](enlace-pendiente)
-- 🔧 [Herramientas de modelado](../../docs/recursos/HERRAMIENTAS-BD.md)
----
-
 ## 👥 **Checklist del Equipo**
 
 Antes de entregar, verificad que:
@@ -250,4 +240,4 @@ Antes de entregar, verificad que:
 
 ---
 
-**🎓 ¡Buena suerte con vuestro primer modelo de datos!**
+**¡Buena suerte con vuestro modelo de datos!**
