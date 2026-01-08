@@ -1,22 +1,11 @@
-# 📊 Sesión 9 – Actividad: Diseño de Batería de Indicadores ASG
+# 📊 Sesión 5 – Actividad: Diseño de Batería de Indicadores ASG
 ## Del Dato al Impacto: Interpretando tu modelo de datos
 
 ---
 
-## 🎯 Objetivos de la actividad
+## Contexto
 
-Al finalizar esta actividad, habrás:
-1. ✅ Identificado qué indicadores ASG puedes extraer de tu modelo de datos actual
-2. ✅ Diseñado una batería de 5-8 indicadores priorizados y relevantes
-3. ✅ Creado fichas técnicas completas para cada indicador
-4. ✅ Preparado consultas conceptuales (pseudocódigo) para su futura implementación
-5. ✅ Conectado tu proyecto con los ODS de forma práctica y medible
-
----
-
-## 📋 Contexto
-
-Ya has completado el **modelado de datos** de tu proyecto (diagrama ER + esquema SQL). Ahora es el momento de **dar sentido a esos datos desde la perspectiva de la sostenibilidad**.
+Ya has completado el **modelado de datos** de tu proyecto (diagrama ER). Ahora es el momento de **dar sentido a esos datos desde la perspectiva de la sostenibilidad**.
 
 Esta actividad es un **puente** entre:
 - **LO QUE TIENES:** Tu modelo de datos (tablas, campos, relaciones)
@@ -26,27 +15,25 @@ Esta actividad es un **puente** entre:
 
 ---
 
-## 📦 Entregables
+## Entregables
 
 Documento único en formato **Markdown** o **PDF** con el nombre:  
-`Equipo-XX_Sesion9_Bateria_Indicadores_ASG.md` (o `.pdf`)
+`Equipo-XX_Sesion5_Bateria_Indicadores_ASG.md` (o `.pdf`)
 
 **Estructura del documento:**
 
 ```
-📄 Equipo-XX_Sesion9_Bateria_Indicadores_ASG.md
+📄 Equipo-XX_Sesion5_Bateria_Indicadores_ASG.md
 │
 ├── 1. Contexto del Proyecto
 ├── 2. Análisis del Modelo de Datos
 ├── 3. Batería de Indicadores (5-8 fichas completas)
 ├── 4. Priorización y Justificación
-├── 5. Consultas Conceptuales
-└── 6. Plan de Implementación
-```
 
+```
 ---
 
-## 🚀 PARTE 1: Contexto del Proyecto (10 minutos)
+## PARTE 1: Contexto del Proyecto 
 
 ### Objetivo
 Recordar y sintetizar el ámbito de trabajo de tu proyecto.
@@ -80,35 +67,9 @@ Completa esta ficha de forma breve:
 [¿Qué queréis saber? Ej: "¿Es eficiente el consumo energético de nuestro instituto?"]
 ```
 
-**Ejemplo cumplimentado:**
-
-```markdown
-## 1. CONTEXTO DEL PROYECTO
-
-### Título del proyecto
-Análisis de eficiencia energética del IES Tecnológico
-
-### Ámbito de análisis
-Consumo eléctrico y de climatización en las instalaciones del centro
-
-### ODS principales trabajados
-- ODS 7: Energía asequible y no contaminante
-- ODS 11: Ciudades y comunidades sostenibles
-- ODS 13: Acción por el clima
-
-### Alcance
-- **Temporal:** Curso completo 2024-2025 (octubre-junio)
-- **Espacial:** 3 edificios principales (A, B, C) del instituto
-- **Poblacional:** 420 estudiantes + 38 docentes + personal no docente
-
-### Pregunta de investigación principal
-¿Cuál es el consumo energético por metro cuadrado de nuestro instituto 
-y cómo se compara con centros similares?
-```
-
 ---
 
-## 🔍 PARTE 2: Análisis del Modelo de Datos (25 minutos)
+## 🔍 PARTE 2: Análisis del Modelo de Datos 
 
 ### Objetivo
 Identificar **qué información sostenible** puedes extraer de tus tablas y campos.
@@ -188,10 +149,10 @@ Identifica **qué puedes calcular** con esos datos. No hace falta fórmulas comp
 
 ---
 
-## 📊 PARTE 3: Batería de Indicadores (45 minutos) ⭐
+## PARTE 3: Batería de Indicadores
 
 ### Objetivo
-Diseñar **5-8 indicadores ASG completos y priorizados** que darán sentido a tu proyecto.
+Diseñar **5-8 indicadores ASG completos y priorizados** sino se han diseñado en las fases previas del proyecto y analizar a nivel técnico.
 
 ### Tareas
 
@@ -260,18 +221,6 @@ Ejemplo:
 **Frecuencia de cálculo:**  
 [Diaria / Semanal / Mensual / Anual]
 
-#### **Consulta conceptual (pseudocódigo)**
-
-```sql
--- Descripción en lenguaje natural de la consulta SQL futura
--- No tiene que ser sintaxis perfecta, pero debe mostrar la lógica
-
-EJEMPLO:
-  SELECCIONAR la suma de consumo_kwh de la tabla Mediciones_Energia
-  DIVIDIR entre la suma de m2 de la tabla Edificios
-  AGRUPAR por mes (del campo fecha)
-  ORDENAR por mes
-```
 
 #### **Interpretación**
 
@@ -324,13 +273,13 @@ Ejemplo:
 
 ---
 
-### 📌 Ejemplo de indicador completo
+### Ejemplo de indicador completo
 
 Para que veas cómo quedaría una ficha bien cumplimentada:
 
 ---
 
-### 📊 **INDICADOR 1: Intensidad energética del centro**
+### **INDICADOR 1: Intensidad energética del centro**
 
 #### **Información básica**
 
@@ -372,32 +321,6 @@ kWh/m²/mes (kilovatios-hora por metro cuadrado al mes)
 
 **Frecuencia de cálculo:**  
 Mensual (con cierre al último día del mes)
-
-#### **Consulta conceptual (pseudocódigo)**
-
-```sql
--- Cálculo de intensidad energética mensual por edificio
-
-SELECCIONAR 
-  nombre_edificio,
-  mes_año,
-  SUMA(consumo_kwh) como consumo_total,
-  m2_totales,
-  SUMA(consumo_kwh) / m2_totales como intensidad_energetica
-
-DE 
-  tabla Mediciones_Energia 
-  UNIDA CON tabla Aulas (por aula_id)
-  UNIDA CON tabla Edificios (por edificio_id)
-
-AGRUPAR POR 
-  nombre_edificio, 
-  mes_año
-
-ORDENAR POR 
-  mes_año, 
-  intensidad_energetica (de mayor a menor)
-```
 
 #### **Interpretación**
 
@@ -452,7 +375,7 @@ Al comparar con benchmarks externos, hay que tener en cuenta el clima de la zona
 
 ---
 
-## 🎯 PARTE 4: Priorización y Justificación (15 minutos)
+## PARTE 4: Priorización y Justificación 
 
 ### Objetivo
 Explicar **por qué has elegido esos indicadores** y **en qué orden** los implementarás.
@@ -507,9 +430,29 @@ Evalúa cada indicador según **factibilidad** (datos disponibles + complejidad)
 
 [Explica cómo tu batería ofrece una visión completa del problema. Por ejemplo: un indicador absoluto da contexto, varios relativos permiten comparar, y uno de tendencia muestra evolución]
 ```
-
 ---
 
+## PARTE 5: Puesta en común
+
+En la próxima sesión, cada equipo hará una **presentación de 5 minutos** de su batería de indicadores:
+
+**Qué preparar:**
+1. **2-3 diapositivas** (o 1 página visual si no usáis PPT)
+2. **Contenido:**
+   - Slide 1: Contexto y ODS trabajados
+   - Slide 2: Los 3 indicadores prioritarios (quick wins) con sus fórmulas
+   - Slide 3: Cómo los usaréis para mejorar la sostenibilidad del centro
+
+**Objetivo de la puesta en común:**
+- Recibir feedback de otros equipos y el profesor
+- Identificar sinergias (equipos trabajando temas similares)
+- Aprender de enfoques diferentes
+
+**No es una defensa formal**, es un espacio de aprendizaje colectivo.
+
+---
+---
+<!-- 
 ## 💻 PARTE 5: Consultas Conceptuales (20 minutos)
 
 ### Objetivo
@@ -568,8 +511,8 @@ PASO 6: Ordenar y presentar
 
 **[Repetir para los otros 2 indicadores prioritarios]**
 
----
-
+--- -->
+<!-- 
 ## 📅 PARTE 6: Plan de Implementación (10 minutos)
 
 ### Objetivo
@@ -620,7 +563,7 @@ Establecer **cuándo y cómo** calcularéis estos indicadores en las próximas s
 - [ ] ...
 ```
 
----
+--- -->
 
 ## ✅ Checklist de autoevaluación
 
@@ -632,8 +575,6 @@ Antes de entregar, verifica que tu documento cumple:
 - [ ] He diseñado entre 5 y 8 indicadores (ni menos ni más)
 - [ ] Cada indicador tiene su ficha técnica completa
 - [ ] He priorizado los indicadores con la matriz factibilidad/impacto
-- [ ] He escrito pseudocódigo para los 3 indicadores prioritarios
-- [ ] He planificado el cronograma de implementación
 
 ### Calidad técnica
 - [ ] Todos los indicadores son **medibles** con mis datos actuales (o con datos fácilmente obtenibles)
@@ -656,38 +597,13 @@ Antes de entregar, verifica que tu documento cumple:
 
 ---
 
-## 📊 Rúbrica de evaluación
-
-| Criterio | Excelente (9-10) | Notable (7-8) | Aprobado (5-6) | Insuficiente (<5) | Peso |
-|----------|-----------------|---------------|----------------|-------------------|------|
-| **Análisis del modelo de datos** | Inventario completo, identifica datos relevantes y faltantes | Inventario completo, identifica algunos faltantes | Inventario básico, no identifica faltantes | Inventario incompleto o ausente | 15% |
-| **Calidad de indicadores** | 5-8 indicadores SMART, bien justificados, diversos | 5-8 indicadores, mayoría SMART, algo repetitivos | 4-5 indicadores, no todos cumplen criterios SMART | <4 indicadores o no cumplen criterios | 35% |
-| **Fichas técnicas** | Todas completas, fórmulas claras, benchmarks incluidos | Mayoría completas, fórmulas claras | Fichas básicas, falta información | Fichas incompletas o ausentes | 25% |
-| **Consultas conceptuales** | Pseudocódigo claro, detallado y viable | Pseudocódigo comprensible | Pseudocódigo básico o poco detallado | Ausente o incomprensible | 15% |
-| **Relevancia ASG/ODS** | Fuerte conexión con ODS, metas cuantificadas | Buena conexión con ODS | Conexión débil con ODS | Sin conexión clara con ODS | 10% |
-
-**Puntuación total: 100 puntos**
-
-### Instrumentos de evaluación:
-- ✅ Rúbrica analítica (esta tabla)
-- ✅ Checklist de completitud
-- ✅ Revisión por pares (opcional): Intercambio de documentos entre equipos para feedback
-
----
-
-## 💡 Consejos y recomendaciones
+## Consejos y recomendaciones
 
 ### Para elegir buenos indicadores:
 1. **Empieza por lo simple**: Un indicador sencillo pero útil es mejor que uno complejo que nadie entiende.
 2. **Piensa en el destinatario**: ¿Lo entenderá la dirección del centro? ¿El equipo de mantenimiento? ¿Los estudiantes?
 3. **Conecta con problemas reales**: ¿Hay quejas sobre el frío/calor? → Indicador de confort térmico. ¿Preocupa el coste energético? → Intensidad energética.
 4. **No te obsesiones con la perfección**: Es mejor tener indicadores "buenos" implementados que indicadores "perfectos" en papel.
-
-### Para escribir pseudocódigo:
-1. **Usa lenguaje natural**: No intentes escribir SQL perfecto todavía.
-2. **Divide en pasos**: Es más fácil de entender y luego traducir a SQL.
-3. **Comenta todo**: Explica cada paso, asume que lo leerá alguien que no conoce tu proyecto.
-4. **Usa nombres reales**: Escribe los nombres exactos de tus tablas y campos.
 
 ### Para priorizar:
 1. **Quick Wins primero**: Los indicadores fáciles de calcular y de alto impacto te dan resultados rápidos.
@@ -702,7 +618,7 @@ Antes de entregar, verifica que tu documento cumple:
 
 ---
 
-## 🎓 Resultados de Aprendizaje trabajados
+## Resultados de Aprendizaje trabajados
 
 Esta actividad evalúa:
 
@@ -724,28 +640,8 @@ Esta actividad evalúa:
 
 ---
 
-## 📅 Fecha de entrega y formato
 
-**Fecha límite:** [A definir por el profesor - sugerencia: 1 semana desde la sesión]
-
-**Formato de entrega:**
-- **Archivo:** `Equipo-XX_Sesion9_Bateria_Indicadores_ASG.md` o `.pdf`
-- **Tamaño:** No hay límite, pero se estima entre 10-20 páginas
-- **Plataforma:** [Moodle / Google Classroom / según indique el profesor]
-
-**Miembros del equipo:**
-- Incluir nombre completo de todos los miembros al inicio del documento
-- Indicar el rol de cada miembro en la actividad (si se han repartido tareas)
-
----
-
-## 🌟 Ejemplo de buena práctica
-
-Si quieres ver un ejemplo de cómo podría quedar un documento completo (con 3 indicadores en lugar de 5-8 por motivos de espacio), consulta el **Anexo: Ejemplo de batería de indicadores** al final de este enunciado.
-
----
-
-## ❓ FAQs - Preguntas frecuentes
+## Preguntas frecuentes
 
 **P: ¿Puedo cambiar indicadores después de entregar esta actividad?**  
 R: Sí, esta batería es un punto de partida. Cuando empieces a implementar, puede que descubras problemas con los datos o encuentres indicadores mejores. La iteración es parte del proceso.
@@ -756,21 +652,16 @@ R: Es poco probable. Incluso con datos básicos (fechas + valores numéricos) pu
 **P: ¿Puedo usar indicadores de otros equipos si trabajamos temas similares?**  
 R: Los indicadores pueden repetirse (ej: todos los grupos de energía calcularán kWh/m²), pero la ficha técnica debe adaptarse a **tu modelo de datos específico**. No copies literalmente.
 
-**P: ¿Necesito programar o ejecutar SQL en esta actividad?**  
-R: No. Esta actividad es de diseño conceptual. El SQL lo implementarás en sesiones futuras.
-
-**P: ¿Cuánto detalle se espera en el pseudocódigo?**  
-R: Suficiente para que otra persona (o tú dentro de 2 semanas) pueda implementarlo en SQL. Ejemplo: "Sumar consumo de tabla X agrupado por mes" es aceptable; solo "calcular consumo" es insuficiente.
 
 **P: ¿Puedo incluir más de 8 indicadores?**  
 R: Puedes mencionar indicadores adicionales en una sección "Indicadores futuros", pero solo desarrolla fichas completas para 5-8. Más de eso es inmanejable para el alcance del curso.
 
 ---
 
-## 📚 Recursos de apoyo
+## Recursos de apoyo
 
 ### Documentos de consulta:
-- **Apuntes Sesión 9**: Del Dato al Impacto - Interpretación de Indicadores ASG
+- **Apuntes Sesión 5**: Del Dato al Impacto - Interpretación de Indicadores ASG
 - **Apuntes Sesión 1**: ODS y criterios ASG
 - **Apuntes Sesión 4**: Modelado de datos (para repasar tu ER)
 
@@ -786,47 +677,7 @@ R: Puedes mencionar indicadores adicionales en una sección "Indicadores futuros
 
 ---
 
-## 🎤 Preparación para la puesta en común
-
-En la próxima sesión (Sesión 10), cada equipo hará una **presentación de 5 minutos** de su batería de indicadores:
-
-**Qué preparar:**
-1. **2-3 diapositivas** (o 1 página visual si no usáis PPT)
-2. **Contenido:**
-   - Slide 1: Contexto y ODS trabajados
-   - Slide 2: Los 3 indicadores prioritarios (quick wins) con sus fórmulas
-   - Slide 3: Cómo los usaréis para mejorar la sostenibilidad del centro
-
-**Objetivo de la puesta en común:**
-- Recibir feedback de otros equipos y el profesor
-- Identificar sinergias (equipos trabajando temas similares)
-- Aprender de enfoques diferentes
-
-**No es una defensa formal**, es un espacio de aprendizaje colectivo.
-
----
-
-## 🏆 Criterios de excelencia
-
-Si quieres aspirar a la máxima nota, tu batería debería:
-
-✨ **Ser diversa**: Combinar indicadores absolutos, relativos y de tendencia  
-✨ **Ser completa**: Cubrir las 3 dimensiones ASG (aunque con diferente peso según tu proyecto)  
-✨ **Ser viable**: Todos los indicadores calculables con datos disponibles o fácilmente obtenibles  
-✨ **Ser relevante**: Cada indicador relacionado con ODS y con meta cuantificada  
-✨ **Ser clara**: Fichas completas, pseudocódigo comprensible, limitaciones identificadas  
-✨ **Ser útil**: Los indicadores orientan decisiones reales del centro
-
----
-
-**¡Manos a la obra!** 🚀  
+**¡Manos a la obra!**   
 Esta batería de indicadores será la **hoja de ruta** para las próximas semanas del proyecto. Cuanto mejor la diseñes ahora, más fácil será implementarla después.
 
----
 
-**Actividad elaborada para:**  
-1º DAW - Digitalización + Sostenibilidad aplicadas al sistema productivo  
-IES [Nombre del Centro] - Curso 2025/2026  
-
-**Tiempo estimado:** 2 horas (sesión presencial) + trabajo autónomo si es necesario  
-**Última actualización:** Enero 2026

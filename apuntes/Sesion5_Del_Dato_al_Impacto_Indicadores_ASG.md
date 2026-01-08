@@ -1,15 +1,4 @@
-# 📘 Sesión 9 – Del Dato al Impacto: Interpretación de Indicadores ASG
-
----
-
-## 🎯 Objetivos de la sesión
-
-Al finalizar esta sesión, serás capaz de:
-1. **Identificar** qué indicadores de sostenibilidad se pueden extraer de un modelo de datos
-2. **Diseñar** métricas ASG relevantes para contextos educativos
-3. **Conectar** datos almacenados con Objetivos de Desarrollo Sostenible (ODS)
-4. **Preparar** consultas conceptuales para análisis futuro
-5. **Evaluar** la calidad y relevancia de diferentes indicadores
+# 📘 Sesión 5 – Del Dato al Impacto: Interpretación de Indicadores ASG
 
 ---
 
@@ -512,7 +501,6 @@ Para cada indicador diseñado, completa esta ficha:
 
 **Limitaciones o advertencias:**
 [Posibles problemas de calidad de datos, excepciones, etc.]
-```
 
 ---
 
@@ -747,44 +735,6 @@ Antes de incluir un indicador en tu proyecto, verifica:
 | **Indicadores estáticos** | No actualizar ni revisar su relevancia | Revisión semestral de batería de indicadores |
 | **Falta de responsable** | Nadie asignado para medir y reportar | Asignar responsable y frecuencia |
 
----
-
-## 📝 Resumen de la sesión
-
-### Lo que hemos aprendido:
-
-1. **Los criterios ASG** son un marco para evaluar el impacto ambiental, social y de gobernanza de organizaciones, aplicables a centros educativos.
-
-2. **Los datos se convierten en información** mediante indicadores, que son métricas cuantificables que permiten medir desempeño y tomar decisiones.
-
-3. **Existen diferentes tipos de indicadores**:
-   - Absolutos vs relativos
-   - De eficiencia, impacto, tendencia
-   - Compuestos o índices
-
-4. **Para diseñar indicadores**:
-   - Revisar el modelo de datos (tablas y campos)
-   - Mapear datos → ODS
-   - Formular cálculos (aunque aún no se ejecuten en SQL)
-   - Validar con criterios SMART
-
-5. **Los ODS tienen indicadores oficiales** que pueden adaptarse a contextos educativos con casos reales de éxito.
-
-6. **Un buen indicador** es específico, medible, alcanzable, relevante y temporal (SMART), y debe priorizarse según factibilidad e impacto.
-
-### Próximos pasos:
-
-En la **actividad práctica** vas a:
-1. Analizar tu propio modelo ER para identificar indicadores ASG extraíbles
-2. Diseñar una batería de 5-8 indicadores priorizados
-3. Crear fichas técnicas para cada indicador
-4. Preparar consultas conceptuales (pseudocódigo) para calcularlos
-
-En **sesiones futuras** (cuando domines SQL):
-- Implementarás esas consultas para obtener los indicadores
-- Crearás visualizaciones en dashboards
-- Compararás con benchmarks reales
-- Propondrás acciones de mejora basadas en datos
 
 ---
 
@@ -815,19 +765,8 @@ En **sesiones futuras** (cuando domines SQL):
 > "Lo que no se mide, no se puede mejorar."  
 > — Peter Drucker
 
-En esta sesión hemos aprendido a **dar significado a los datos** mediante indicadores. El modelo de datos que diseñaste en sesiones anteriores no es solo una estructura técnica: **es la base para comprender y transformar la realidad**.
-
-Cada indicador que diseñes es una **pregunta que haces a tus datos**:
-- ¿Somos eficientes en el uso de recursos?
-- ¿Estamos progresando hacia nuestros objetivos?
-- ¿Dónde podemos mejorar?
-
 Y recuerda: **los mejores indicadores no son los más complejos, sino los que orientan decisiones concretas** para hacer del instituto (y del mundo) un lugar más sostenible. 🌍💚
 
 ---
 
-**Sesión elaborada para:**  
-1º DAW - Digitalización + Sostenibilidad aplicadas al sistema productivo  
-IES [Nombre del Centro] - Curso 2025/2026
 
-**Última actualización:** Enero 2026
