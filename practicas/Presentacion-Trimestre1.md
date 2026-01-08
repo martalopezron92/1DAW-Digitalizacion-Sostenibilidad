@@ -1,9 +1,9 @@
-# 🎤 **Presentación del Proyecto - 1º Trimestre**
+# **Presentación del Proyecto - 1º Trimestre**
 ## Digitalización + Sostenibilidad | 1º DAW
 
 ---
 
-## 📋 **Información General**
+## **Información General**
 
 - **Código**: PRES-T1
 - **Nombre**: Presentación del Trabajo del Primer Trimestre
@@ -14,7 +14,7 @@
 
 ---
 
-## 🎯 **Objetivos**
+## **Objetivos**
 
 Al finalizar esta presentación, el equipo habrá demostrado:
 
@@ -26,7 +26,7 @@ Al finalizar esta presentación, el equipo habrá demostrado:
 
 ---
 
-## 📊 **Contenido de la Presentación**
+## **Contenido de la Presentación**
 
 La presentación debe incluir **obligatoriamente** los siguientes apartados:
 
@@ -155,7 +155,7 @@ La presentación debe incluir **obligatoriamente** los siguientes apartados:
 
 ---
 
-## 🎨 **Requisitos de Diseño**
+## **Requisitos de Diseño**
 
 ### **Formato de la Presentación**
 - **Número de diapositivas**: 12-18 (aproximadamente)
@@ -177,7 +177,7 @@ La presentación debe incluir **obligatoriamente** los siguientes apartados:
 
 ---
 
-## 👥 **Distribución de la Intervención**
+## **Distribución de la Intervención**
 
 ### **Obligaciones de Participación**
 - **Todos los miembros** deben hablar al menos 3 minutos
@@ -195,11 +195,11 @@ La presentación debe incluir **obligatoriamente** los siguientes apartados:
 | **Redactor/a** | 6. Reflexión | 2 min |
 | **Todo el equipo** | 8. Preguntas | 1 min |
 
-> 💡 **Nota**: Ajustad según el número de miembros. Si sois 5, repartid la sección 5 entre dos personas.
+>  **Nota**: Ajustad según el número de miembros. Si sois 5, repartid la sección 5 entre dos personas.
 
 ---
 
-## 📤 **Entregables**
+## **Entregables**
 
 ### **1. Archivo de la Presentación**
 - **Formato**: PDF + archivo fuente (.pptx, .key, .odp o enlace a Google Slides)
@@ -217,11 +217,11 @@ La presentación debe incluir **obligatoriamente** los siguientes apartados:
 
 ---
 
-## 🧾 **Criterios de Evaluación**
+## **Criterios de Evaluación**
 
 Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Trimestre**:
 
-### 📱 **Digitalización aplicada al sistema productivo**
+### **Digitalización aplicada al sistema productivo**
 
 **RA1**: Analiza el concepto de digitalización identificando entornos IT y OT.
 
@@ -250,7 +250,7 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Tr
 | **b)** Descripción del ciclo de vida del dato | Presenta el flujo completo: captura → almacenamiento → procesamiento → análisis |
 | **i)** Importancia de seguridad y regulación de datos | Menciona aspectos de RGPD, anonimización o protección aplicados al proyecto |
 
-### 🌱 **Sostenibilidad aplicada al sistema productivo**
+### **Sostenibilidad aplicada al sistema productivo**
 
 **RA1**: Identifica aspectos ASG relativos a la sostenibilidad.
 
@@ -282,7 +282,7 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Tr
 
 ---
 
-## 📊 **Rúbrica de Evaluación**
+## **Rúbrica de Evaluación**
 
 ### **Dimensión 1: Contenido y Completitud (40%)**
 
@@ -343,50 +343,24 @@ Esta presentación trabaja los siguientes Resultados de Aprendizaje del **1º Tr
 
 ---
 
-## ✅ **Checklist del Equipo**
-
-Antes de la presentación, verificad que:
-
-- [ ] **Todos los apartados** están cubiertos en la presentación
-- [ ] **Todos los miembros** tienen claro qué van a decir
-- [ ] **Habéis ensayado** al menos 2 veces completas
-- [ ] **El tiempo** está controlado (18-20 minutos)
-- [ ] **Las transiciones** entre oradores están practicadas
-- [ ] **El diseño** es profesional y legible
-- [ ] **Los archivos** están subidos al repositorio
-- [ ] **Tenéis backup** de la presentación (USB + nube)
-- [ ] **Conocéis todos** el contenido completo del proyecto
-- [ ] **Habéis preparado** posibles preguntas
-
----
-
-## 💡 **Consejos para una Buena Presentación**
+##  **Consejos para una Buena Presentación**
 
 ### **Antes**
-- 🎯 Ensayad varias veces cronometrando
-- 📝 Preparad notas breves (no leáis)
-- 🎨 Revisad que todo se vea bien proyectado
-- 🤝 Aclarad quién responde qué tipo de preguntas
+-  Ensayad varias veces cronometrando
+-  Preparad notas breves (no leáis)
+-  Revisad que todo se vea bien proyectado
+-  Aclarad quién responde qué tipo de preguntas
 
 ### **Durante**
-- 👀 Mantened contacto visual con la audiencia
-- 🗣️ Hablad con claridad y ritmo pausado
-- 💪 Mostrad confianza y entusiasmo
-- 🤝 Apoyaos entre vosotros
+-  Mantened contacto visual con la audiencia
+-  Hablad con claridad y ritmo pausado
+-  Mostrad confianza y entusiasmo
+-  Apoyaos entre vosotros
 
 ### **Después**
-- 👂 Escuchad atentamente las preguntas
-- 🤔 Tomad un momento antes de responder
-- 🙏 Agradeced a la audiencia y al profesor
+-  Escuchad atentamente las preguntas
+-  Tomad un momento antes de responder
+-  Agradeced a la audiencia y al profesor
 
 ---
-
-## 🆘 **¿Necesitas Ayuda?**
-
-### **Recursos de Apoyo**
-- 📚 [Guía de presentaciones efectivas](../../docs/recursos/GUIA-PRESENTACIONES.md)
-- 🎨 [Plantillas de diseño](../../docs/recursos/PLANTILLAS.md)
-- 🎥 [Ejemplos de presentaciones anteriores](enlace-pendiente)
-
-
 **¡Mucha suerte, y recordad: una comida está en juego!**
