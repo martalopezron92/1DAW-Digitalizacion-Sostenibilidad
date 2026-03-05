@@ -1,4 +1,4 @@
-# 📊 Sesión 5 – Actividad: Diseño de Batería de Indicadores ASG
+# P02: Diseño de Batería de Indicadores ASG
 ## Del Dato al Impacto: Interpretando tu modelo de datos
 
 ---
