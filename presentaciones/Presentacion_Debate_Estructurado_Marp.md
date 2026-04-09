@@ -1,4 +1,4 @@
----
+<!-- ---
 marp: true
 theme: default
 paginate: true
@@ -48,7 +48,7 @@ style: |
     color: #c0392b;
     font-weight: 700;
   }
----
+--- -->
 
 <!-- _class: lead -->
 # Cómo preparar y ganar un debate  
