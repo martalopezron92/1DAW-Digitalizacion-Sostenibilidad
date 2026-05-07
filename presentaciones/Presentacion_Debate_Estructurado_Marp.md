@@ -200,14 +200,3 @@ style: |
 > Debatir bien en DAW es comunicar con evidencia, igual que programar bien es justificar decisiones técnicas.
 
 ---
-
-<!-- _class: lead -->
-# ¿Preguntas?
-
-### Próximos tiempos de clase
-- 10 min: formar equipos y elegir postura
-- 20 min: preparar documento obligatorio
-- 15 min: mini debate por parejas de equipos
-- 5 min: feedback rápido
-
-> Preparación + datos + orden = debate sólido.
