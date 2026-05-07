@@ -1,5 +1,4 @@
-# Sesión 1 (2h)
-## Diseño físico en Oracle Database XE
+# Diseño físico en Oracle Database XE
 
 ## Contexto
 Vuestro equipo ya dispone de modelo entidad-relación y modelo relacional. En esta sesión debéis convertir ese diseño lógico en un esquema físico ejecutable en Oracle XE, tomando decisiones de tipos de datos, restricciones e integridad.

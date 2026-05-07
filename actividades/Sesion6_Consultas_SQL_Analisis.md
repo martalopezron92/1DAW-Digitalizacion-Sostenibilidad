@@ -1,5 +1,4 @@
-# Sesión 3 (2h)
-## Consultas SQL de análisis
+# Consultas SQL de análisis
 
 ## Contexto
 Disponéis de un esquema y de datos validados. La tarea ahora es transformar esos datos en información útil para decidir mejoras sostenibles.

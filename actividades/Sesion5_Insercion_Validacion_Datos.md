@@ -1,5 +1,4 @@
-# Sesión 2 (2h)
-## Inserción y validación de datos
+# Inserción y validación de datos
 
 ## Contexto
 El esquema físico ya existe. Ahora toca poblarlo con datos útiles para el análisis. Insertar no es volcar información sin control: es construir evidencia fiable.

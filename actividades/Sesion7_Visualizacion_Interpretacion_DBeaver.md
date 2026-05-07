@@ -1,5 +1,4 @@
-# Sesión 4 (2h)
-## Visualización e interpretación de datos en DBeaver
+# Visualización e interpretación de datos en DBeaver
 
 ## Contexto
 Ya disponéis de consultas y vistas de análisis. En esta sesión debéis convertir resultados SQL en visualizaciones claras y defender su interpretación técnica.

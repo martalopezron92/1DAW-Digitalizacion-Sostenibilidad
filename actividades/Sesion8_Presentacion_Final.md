@@ -1,5 +1,4 @@
-# Sesión 5 (2h)
-## Presentación final del proyecto
+# Presentación final del proyecto
 
 ## Contexto
 Esta sesión está dedicada a la defensa técnica del trabajo realizado. El objetivo es demostrar que el equipo sabe explicar decisiones de modelado, calidad del dato, análisis SQL y propuestas sostenibles con base empírica.
