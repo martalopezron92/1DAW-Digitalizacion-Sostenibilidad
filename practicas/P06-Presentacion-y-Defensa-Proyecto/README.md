@@ -5,16 +5,15 @@
 La presentación final evalúa vuestra capacidad para defender técnicamente el proyecto y argumentar propuestas sostenibles a partir de datos. No se trata de leer diapositivas: se trata de demostrar criterio profesional.
 
 ## 2. Tiempo y formato recomendados
-Duración total por equipo: entre 30 y 35 minutos.
+Duración total por equipo: 20 minutos.
 
 Distribución sugerida:
 
-1. Contexto y objetivo del proyecto: 3 minutos
-2. Diseño técnico de la base de datos: 6 minutos
-3. Calidad del dato e incidencias: 5 minutos
-4. Análisis SQL y visualizaciones: 8 minutos
-5. Conclusiones y propuestas sostenibles: 6 minutos
-6. Preguntas del profesorado: 5 minutos
+1. Contexto y objetivo del proyecto: 2 minutos
+2. Diseño técnico de la base de datos: 4 minutos
+3. Calidad del dato e incidencias: 4 minutos
+4. Análisis SQL y visualizaciones: 5 minutos
+5. Conclusiones y propuestas sostenibles: 5 minutos
 
 ## 3. Estructura obligatoria de la exposición
 ### Bloque 1. Problema y alcance
